@@ -1,3 +1,8 @@
+/*CSS color style for businesslab*/
+    $--businesslab-primary: #E97822;
+    $--businesslab-secondary:#183028;
+    $--businesslab-bg:  #fef9f4;
+//CSS root theme
 b, strong{
     font-weight: bold;
 }
@@ -5,10 +10,13 @@ b, strong{
 .custom-footer {
     /*background-color: transparent !important;
     background-image: linear-gradient(180deg, #304770 0%, #00153C 100%) !important;*/
-    background-color: #00153C !important;
+    background-color: $--businesslab-bg !important;
+}
+.custom-footer .flexbox{
+    color: var(--businesslab-color)
 }
 .custom-footer .heading:before {
-    background-image: url(https://missionizer.agentc.asia/uploads/default/original/1X/9d2caea65d63a5c20b190fb7094a18ddf318d645.png);
+    background-image: url(/assets/logo-businesslabvn%20-%20darkmode.png?raw=true);
     background-repeat: no-repeat;
     display: block;
     content: "";
@@ -102,6 +110,17 @@ html .background-container{
 }*/
 
 /*CSS Category*/
+td.main-link.clearfix.topic-list-data{
+    display: block !important;
+}
+td.main-link.clearfix.topic-list-data div.topic-list-thumbnail.has-thumbnail.landscape, td.main-link.clearfix.topic-list-data div.topic-list-thumbnail.no-thumbnail{
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 10px !important;
+}
+td.main-link.clearfix.topic-list-data a.topic-excerpt{
+    margin-left: 90px !important;
+}
 .category-header div[class^="category-title-header"] .category-title-contents{
     padding:1.75rem 1rem .5rem 0;
 }
