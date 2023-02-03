@@ -129,6 +129,13 @@ td.main-link.clearfix.topic-list-data a.topic-excerpt{
 .setting.category-list{
     display:block;
 }
+.category-list tbody tr:hover{
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #feede6;
+    background-image: linear-gradient(12deg,#fff 50%,hsla(0,0%,100%,0));
+    transition: background-color .3s ease-in;
+}
 .category-list .category-list-banner {
     justify-content: flex-start !important;
     align-items: flex-end !important;
@@ -193,6 +200,9 @@ blockquote p{
 /*CSS Topic list body*/
 .navigation-controls > .btn-default.btn,.select-kit.single-select.dropdown-select-box{
     margin-left: 5px;
+}
+#list-area .show-more .alert {
+    border-radius: 5px 5px 0px 0px;
 }
 .topic-list .topic-list-header tr{
     min-height: 58px;
