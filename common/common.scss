@@ -207,6 +207,7 @@ blockquote p{
 }
 .topic-list .topic-list-header tr{
     min-height: 58px;
+    border-radius: 5px;
     & th:first-child{
         display: flex;
         align-items: center;
