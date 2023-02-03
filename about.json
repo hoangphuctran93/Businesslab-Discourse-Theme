@@ -3,13 +3,14 @@
   "component": false,
   "license_url": null,
   "about_url": "https://agentc.asia/about",
-  "authors": "AGENTC ASIA CO., LTD",
+  "authors": "AGENTC ASIA CO., LTD 1",
   "theme_version": null,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
     "globe-solid": "assets/globe-solid.svg",
     "logo-missionizer-h120px-dark": "assets/logo-missionizer-h120px-dark.png",
+    "logo-businesslabvn": "assets/logo-businesslabvn.png",
     "meta-bg": "assets/meta-bg.svg"
   },
   "color_schemes": {
