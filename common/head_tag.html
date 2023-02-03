@@ -1,1 +1,16 @@
 <div class="background-container"></div>
+<script>
+    const copyListener = (event) => {
+  const range = window.getSelection().getRangeAt(0),
+    rangeContents = range.cloneContents(),
+    pageLink = `Xem thêm tại: ${document.location.href}`,
+    helper = document.createElement("div");
+
+  helper.appendChild(rangeContents);
+
+  event.clipboardData.setData("text/plain", `${helper.innerText}\n${pageLink}`);
+  event.clipboardData.setData("text/html", `${helper.innerHTML}<br>${pageLink}`);
+  event.preventDefault();
+};
+document.addEventListener("copy", copyListener);
+</script>
