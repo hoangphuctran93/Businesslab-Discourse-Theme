@@ -1,0 +1,142 @@
+/*CSS Mobile menu*/
+html:not(.anon) {
+  #topic-progress-wrapper,
+  #reply-control.draft {
+	bottom: 49px;
+  }
+  #reply-control.draft {
+	margin-bottom: env(safe-area-inset-bottom);
+	padding-bottom: 0px;
+	transition: all .1s ease-out;
+  }
+  .posts-filtered-notice {
+	transition: all .1s ease-out;
+	bottom: 49px;
+  } 
+}
+
+body.tab-bar-hidden {
+  .d-tab-bar {
+	bottom: -49px;
+	transition: all .2s ease-in;
+  }
+  #topic-progress-wrapper:not(.docked),
+  #reply-control.draft {
+	bottom: 0;
+	transition: all .2s ease-in;
+  }
+  #reply-control.draft {
+	margin-bottom: env(safe-area-inset-bottom);
+	padding-bottom: 0px;
+	transition: all .2s ease-in;
+  }
+  .posts-filtered-notice {
+	transition: all .2s ease-in;
+	bottom: 0;
+  }
+}
+
+.d-tab-bar {
+  transition: all .1s ease-out;
+}
+
+body:not(.footer-nav-ipad) .footer-nav {
+  display: none;
+}
+
+.custom-footer {
+    padding-bottom: 65px;
+}
+
+html:not(.anon) #topic-progress-wrapper:not(.docked){
+    bottom: 55px;
+}
+
+/*CSS Custom theme*/
+#main-outlet-wrapper #main-outlet{
+    padding: 30px 15px;
+}
+/*#main-outlet-wrapper{
+    padding: 0px;
+}*/
+/*CSS Cover Wellcome Banner*/
+.above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
+    background-position-x: right;
+    background-position-y: bottom;
+    padding: 1em 0;
+}
+/*CSS Footer*/
+.custom-footer{
+    padding: 0 10px 35px;
+}
+.custom-footer .list{
+}
+/*CSS Composer button bar suggestions*/
+#reply-control {
+  .submit-panel {
+    margin-top: 1em;
+  }
+}
+
+.d-editor-textarea-wrapper {
+  flex-direction: column-reverse;
+  .d-editor-input {
+    // Bigger padding on bottom to prevent the last line selection covers the buttons bar
+    padding-bottom: 1.75em;
+  }
+  .d-editor-button-bar {
+    border-top: 1px solid var(--primary-low);
+    border-bottom: none;
+    // Popup menu
+    .select-kit.dropdown-select-box.toolbar-popup-menu-options {
+      position: static;
+      .select-kit-filter {
+        display: none;
+      }
+      .select-kit-body {
+        transform: none !important;
+        top: auto !important;
+        bottom: 0 !important;
+        flex-direction: row;
+        justify-content: flex-start;
+        max-width: 100%;
+        width: 100% !important;
+        overflow-x: auto;
+        background: var(--primary-very-low);
+        border: none;
+      }
+      .select-kit-row {
+        padding: 0.5em 0.65em;
+        border: 1px solid transparent;
+        border-top: none;
+      }
+      .select-kit-collection {
+        display: contents;
+      }
+    }
+  }
+}
+/*CSS Topic list body*/
+.topic-list-header{
+    display: flex !important;
+    background: #f9fcff !important;
+    & tr {
+    align-items: center !important;
+    justify-content: space-around !important;
+        & th.views.num.topic-list-data, th.activity.num.topic-list-data, th.posters.topic-list-data{
+        display: none;
+    }
+    }
+}
+.topic-list-header tr{
+    border: 0px;
+}
+.topic-list.sticky-header .topic-list-header tr{
+    justify-content: space-between !important
+}
+.topic-list-data .pull-left{
+    padding: 5px;
+}
+tr.topic-list-item-separator td.topic-list-data{
+    max-width: none !important;
+}
