@@ -260,7 +260,7 @@ blockquote p{
     display: flex;
     margin-bottom: 0.5em;
     background-color: var(--secondary);
-    border: 1px solid rgba(var(--primary-rgb), 0.2);
+    border: 5px solid rgba(var(--primary-rgb), 0.2);
     border-radius: 1em;
     position: relative;
     transition: box-shadow 100ms ease-in-out;
