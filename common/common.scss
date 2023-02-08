@@ -29,14 +29,12 @@ b, strong{
         height: 75px;
         margin: 0 auto;
     }
-    & .first-box{
-        & .blurb{
-            color: var(--businesslab-secondary)
-        }
+    & .first-box .blurb{
+        color: var(--businesslab-secondary)
     }
     & .second-box{
         & .links{
-            & li{
+            & li {
                 & a{
                     color: var(--businesslab-secondary);
                 }
@@ -57,7 +55,7 @@ b, strong{
         & .small-link:last-child {
             display:block;
         }
-        & .social{
+        & .social .social-link .d-icon {
             color: var(--businesslab-secondary)
         }
     }
