@@ -3,8 +3,9 @@
     --businesslab-primary: #E97822;
     --businesslab-secondary:#183028;
     --businesslab-bg:  #fef9f4;
-    --businesslab-colorLighter: #636566;
+    --businesslab-orangeLighter: #636566;
     --businesslab-highlight: #E87722;
+    --businesslab-borderLighter: #dbdfe1;
 
 }
 //CSS root theme
@@ -57,6 +58,9 @@ b, strong{
     }
     & .third-box{
         margin-top: 15px;
+        border-style: solid;
+        border-width: 1px 0 0 0;
+        border-color: var(--businesslab-borderLighter);
         & .small-link{
             color: var(--businesslab-colorLighter)
         }
