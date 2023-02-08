@@ -13,6 +13,21 @@ b, strong{
     /*background-color: transparent !important;
     background-image: linear-gradient(180deg, #304770 0%, #00153C 100%) !important;*/
     background-color: var(--businesslab-bg) !important;
+    & .second-box{
+        & .links{
+            & li{
+                & a{
+                    color: var(--businesslab-secondary);
+                }
+                & a:hover{
+                    color: var(--businesslab-primary)
+                }
+            }
+        }
+    }
+    & .list span{
+        color: var(--businesslab-primary)
+    }
 }
 .custom-footer .flexbox{
     color: var(--businesslab-secondary) !important;
