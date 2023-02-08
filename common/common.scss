@@ -4,6 +4,8 @@
     --businesslab-secondary:#183028;
     --businesslab-bg:  #fef9f4;
     --businesslab-colorLighter: #636566;
+    --businesslab-highlight: #E87722;
+
 }
 //CSS root theme
 b, strong{
@@ -14,6 +16,12 @@ b, strong{
     /*background-color: transparent !important;
     background-image: linear-gradient(180deg, #304770 0%, #00153C 100%) !important;*/
     background-color: var(--businesslab-bg) !important;
+    & .wrap::before{
+        width: 100vw;
+        border: 1px solid var(--businesslab-highlight);
+        content: "";
+        position: absolute;
+    }
     & .flexbox{
         color: var(--businesslab-secondary) !important;
     }
