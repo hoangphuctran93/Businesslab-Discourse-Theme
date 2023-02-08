@@ -3,6 +3,7 @@
     --businesslab-primary: #E97822;
     --businesslab-secondary:#183028;
     --businesslab-bg:  #fef9f4;
+    --businesslab-colorLighter: #636566;
 }
 //CSS root theme
 b, strong{
@@ -13,6 +14,26 @@ b, strong{
     /*background-color: transparent !important;
     background-image: linear-gradient(180deg, #304770 0%, #00153C 100%) !important;*/
     background-color: var(--businesslab-bg) !important;
+    & .flexbox{
+        color: var(--businesslab-secondary) !important;
+    }
+    & .heading:before {
+        background-image: url(https://github.com/hoangphuctran93/businesslab-discourse-theme/blob/main/assets/logo-businesslabvn.png?raw=true);
+        background-repeat: no-repeat;
+        display: block;
+        content: "";
+        background-position: center center;
+        /*change the settings below based on the size of your logo*/
+        background-size: contain;
+        width: 75%;
+        height: 75px;
+        margin: 0 auto;
+    }
+    & .first-box{
+        & .blurb{
+            color: var(--businesslab-secondary)
+        }
+    }
     & .second-box{
         & .links{
             & li{
@@ -24,32 +45,23 @@ b, strong{
                 }
             }
         }
+        & .list span{
+            color: var(--businesslab-primary)
+        }
     }
-    & .list span{
-        color: var(--businesslab-primary)
+    & .third-box{
+        margin-top: 15px;
+        & .small-link{
+            color: var(--businesslab-colorLighter)
+        }
+        & .small-link:last-child {
+            display:block;
+        }
+        & .social{
+            color: var(--businesslab-secondary)
+        }
     }
-}
-.custom-footer .flexbox{
-    color: var(--businesslab-secondary) !important;
-}
-.custom-footer .heading:before {
-    background-image: url(https://github.com/hoangphuctran93/businesslab-discourse-theme/blob/main/assets/logo-businesslabvn.png?raw=true);
-    background-repeat: no-repeat;
-    display: block;
-    content: "";
-    background-position: center center;
-    /*change the settings below based on the size of your logo*/
-    background-size: contain;
-    width: 75%;
-    height: 75px;
-    margin: 0 auto;
-}
-
-.custom-footer .third-box{
-    margin-top: 15px;
-}
-.custom-footer .third-box .small-link:last-child {
-    display:block;
+    
 }
 
 /*CSS Custom theme*/
