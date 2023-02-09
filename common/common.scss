@@ -21,20 +21,27 @@ b, strong{
     }
 }
 .d-header-icons {
-    & .icon{
-        background: var(--businesslab-borderLighter);
-        border-radius: 50%;
-         & svg{
-            font-size: 1.2rem;
-            color: var(--businesslab-secondary)
-         }
+    li{
+        margin-right:8px;
+        & .icon{
+            background: var(--businesslab-borderLighter);
+            border-radius: 50%;
+             & svg{
+                font-size: 1.2rem;
+                color: var(--businesslab-secondary)
+             }
+        }
     }
-    & li:last-child .icon{
-        background: unset;
-        border-radius: unset;
-        & svg {
-            font-size: unset;
-            color:unset;
+    
+    & li:last-child {
+        margin-right: 0px;
+        .icon{
+            background: unset;
+            border-radius: unset;
+            & svg {
+                font-size: unset;
+                color:unset;
+            }
         }
     }
 }
