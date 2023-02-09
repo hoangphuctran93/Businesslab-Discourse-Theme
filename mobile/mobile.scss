@@ -90,6 +90,10 @@ html:not(.anon) #topic-progress-wrapper:not(.docked){
 #main-outlet-wrapper #main-outlet{
     padding: 30px 15px;
 }
+//CSS Header
+.d-header-icons .search-dropdown{
+    display: none;
+}
 /*#main-outlet-wrapper{
     padding: 0px;
 }*/
@@ -174,3 +178,4 @@ html:not(.anon) #topic-progress-wrapper:not(.docked){
 tr.topic-list-item-separator td.topic-list-data{
     max-width: none !important;
 }
+
