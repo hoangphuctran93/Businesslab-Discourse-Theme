@@ -41,8 +41,12 @@ body.tab-bar-hidden {
   & .tab.active{
     color: var(--businesslab-primary);
   }
-  & .tab.active:before{
-
+  & .tab.active::before{
+    width: 100vw;
+    border: 1px solid var(--businesslab-highlight);
+    content: "";
+    position: absolute;
+    left: 0;
   }
   & .tab:nth-child(3) svg{
     padding: 0.5em;
