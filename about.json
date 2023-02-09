@@ -24,7 +24,8 @@
     "icon-personal": "assets/icon-personal.svg",
     "icon-send-submit": "assets/icon-send-submit.svg",
     "icon-setting": "assets/icon-setting.svg",
-    "icon-user": "assets/icon-user.svg"
+    "icon-user": "assets/icon-user.svg",
+    "icon-search": "assets/icon-search.svg"
   },
   "color_schemes": {
   },
