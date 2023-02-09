@@ -25,11 +25,14 @@ b, strong{
     & .nsm7Bb-HzV7m-LgbsSe{
         border: 1px solid rgba(0,0,0,0) !important;
     }
-    & .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId{
-        font-family: var(--font-family);
-        color: #000;
-        justify-content: flex-start;
-        display: flex;
+    & .nsm7Bb-HzV7m-LgbsSe {
+        border-radius: 8px !important;
+        & .nsm7Bb-HzV7m-LgbsSe-BPrWId{
+            font-family: var(--font-family) !important;
+            color: #000 !important;
+            display: flex !important;
+            justify-content: flex-start !important;
+        }
     }
 }
 /*CSS Custom Footer*/
