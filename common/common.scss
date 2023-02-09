@@ -23,23 +23,9 @@ b, strong{
     padding: 0 1em;
     }
 }
-//CSS login google one tap
+//CSS hide login google one tap
 #google_one_tap{
-    border-radius: 8px !important;
     display: none;
-    & iframe  html  body > div > div{
-        &.nsm7Bb-HzV7m-LgbsSe{
-            border: none !important;
-            border-radius: 8px !important;
-            & .nsm7Bb-HzV7m-LgbsSe-BPrWId{
-                font-family: var(--font-family) !important;
-                color: #000 !important;
-                display: flex !important;
-                justify-content: flex-start !important;
-            }
-        }
-    }
-    
 }
 /*CSS Custom Footer*/
 .custom-footer {
