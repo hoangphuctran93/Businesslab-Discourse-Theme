@@ -1,3 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="user-indicator-icon">
-    <path d="M4 12h16M4 6h16M4 18h16"/>
+<svg class="svg-menu-icon" viewBox="0 0 20 16" xmlns="http://www.w3.org/2000/svg">
+    <g fill="inherit">
+        <path d="M19.196 8.6H1.11c-.402 0-.804-.3-.804-.8S.708 7 1.11 7h18.086c.402 0 .804.3.804.8s-.402.8-.804.8zM16.182 1.6H4.124c-.402 0-.803-.4-.803-.8s.401-.8.803-.8h12.058c.402 0 .804.3.804.8s-.402.8-.804.8zM16.182 15.6H4.124c-.402 0-.803-.3-.803-.8s.301-.8.803-.8h12.058c.402 0 .804.3.804.8s-.402.8-.804.8z"/>
+    </g>
 </svg>
