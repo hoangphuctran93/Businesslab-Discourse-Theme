@@ -29,7 +29,7 @@ b, strong{
             color: var(--businesslab-secondary)
          }
     }
-    & .icon:last-child{
+    & li:last-child .icon{
         background: unset;
         border-radius: unset;
         & svg {
