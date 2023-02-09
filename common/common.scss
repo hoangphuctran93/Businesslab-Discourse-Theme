@@ -22,16 +22,19 @@ b, strong{
 //CSS login google one tap
 #google_one_tap{
     border-radius: 8px !important;
-    & .nsm7Bb-HzV7m-LgbsSe{
-        border: none;
-        border-radius: 8px !important;
-        & .nsm7Bb-HzV7m-LgbsSe-BPrWId{
-            font-family: var(--font-family) !important;
-            color: #000 !important;
-            display: flex !important;
-            justify-content: flex-start !important;
+    & iframe#gsi_177538_876723{
+        & .nsm7Bb-HzV7m-LgbsSe{
+            border: none !important;
+            border-radius: 8px !important;
+            & .nsm7Bb-HzV7m-LgbsSe-BPrWId{
+                font-family: var(--font-family) !important;
+                color: #000 !important;
+                display: flex !important;
+                justify-content: flex-start !important;
+            }
         }
     }
+    
 }
 /*CSS Custom Footer*/
 .custom-footer {
