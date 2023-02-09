@@ -40,13 +40,16 @@ body.tab-bar-hidden {
   transition: all .1s ease-out;
   & .tab.active{
     color: var(--businesslab-primary);
+    position: relative;
   }
   & .tab.active::before{
-    width: 100vw;
-    border: 1px solid var(--businesslab-highlight);
-    content: "";
+    content: '';
     position: absolute;
-    left: 0;
+    top: 0;
+    height: 2px;
+    width: 100%;
+    background: var(--businesslab-primary);
+    border-radius: 0px 0px 2px 2px;
   }
   & .tab:nth-child(3) svg{
     padding: 0.5em;
