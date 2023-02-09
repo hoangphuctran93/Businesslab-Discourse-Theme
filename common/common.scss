@@ -24,7 +24,7 @@ b, strong{
     li{
         margin-right:8px;
         & .icon{
-            background: var(--businesslab-bg);
+            background: var(--d-selected);
             border-radius: 50%;
              & svg{
                 font-size: 1.2rem;
@@ -32,7 +32,7 @@ b, strong{
              }
         }
     }
-    
+
     & li:last-child {
         margin-right: 0px;
         .icon{
@@ -43,6 +43,9 @@ b, strong{
                 color:unset;
             }
         }
+    }
+    & li:last-child:hover .icon{
+        background: unset;
     }
     & .icon img.avatar{
         width: 52px;
