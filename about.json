@@ -12,7 +12,7 @@
     "logo-missionizer-h120px-dark": "assets/logo-missionizer-h120px-dark.png",
     "logo-businesslabvn": "assets/logo-businesslabvn.png",
     "meta-bg": "assets/meta-bg.svg",
-    "icon-help": "assets/Icon-help.svg",
+    "icon-help": "assets/icon-help.svg",
     "icon-bookmarks": "assets/icon-bookmarks.svg",
     "icon-explore": "assets/icon-explore.svg",
     "icon-home": "assets/icon-home.svg",
@@ -26,7 +26,8 @@
     "icon-setting": "assets/icon-setting.svg",
     "icon-user": "assets/icon-user.svg",
     "icon-search": "assets/icon-search.svg",
-    "icon-menu": "assets/icon-menu.svg"
+    "icon-menu": "assets/icon-menu.svg",
+    "icon-saved": "assets/icon-saved.svg"
   },
   "color_schemes": {
   },
