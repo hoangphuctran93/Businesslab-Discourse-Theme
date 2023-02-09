@@ -21,7 +21,7 @@ b, strong{
     }
 }
 .d-header-icons {
-    & .icon:not(:last-child){
+    & .icon{
         background: var(--businesslab-borderLighter);
         border-radius: 50%;
          & svg{
