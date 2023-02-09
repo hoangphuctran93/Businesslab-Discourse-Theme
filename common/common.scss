@@ -34,7 +34,7 @@ b, strong{
     }
     li:hover{
         & .icon svg{
-            color: var(--businesslab-primary);
+            color: var(--businesslab-primary) !important;
         }
     }
     & li:last-child {
