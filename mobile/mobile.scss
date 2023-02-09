@@ -41,6 +41,9 @@ body.tab-bar-hidden {
   & .tab.active{
     color: var(--businesslab-primary);
   }
+  & .tab.active:before{
+
+  }
   & .tab:nth-child(3) svg{
     padding: 0.5em;
     font-size: 1.5em;
