@@ -32,7 +32,11 @@ b, strong{
              }
         }
     }
-
+    li:hover{
+        & .icon svg{
+            color: var(--businesslab-primary);
+        }
+    }
     & li:last-child {
         margin-right: 0px;
         .icon{
