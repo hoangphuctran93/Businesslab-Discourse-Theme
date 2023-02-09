@@ -13,15 +13,16 @@
 b, strong{
     font-weight: bold;
 }
-//CSS Loading
-.loading-indicator-container .loading-indicator{
-    background-color: var(--businesslab-primary)
-}
+//CSS Header
 .d-header{
     &>.wrap{
     max-width: 100%;
     padding: 0 1em;
     }
+}
+//CSS Loading
+.loading-indicator-container .loading-indicator{
+    background-color: var(--businesslab-primary)
 }
 //CSS hide login google one tap
 #google_one_tap{
