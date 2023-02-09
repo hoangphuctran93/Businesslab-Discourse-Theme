@@ -38,6 +38,17 @@ body.tab-bar-hidden {
 
 .d-tab-bar {
   transition: all .1s ease-out;
+  &. .tab:nth-child(3) svg{
+    padding: 0.5em;
+    font-size: 1.5em;
+    background: var(--businesslab-primary);
+    color: #fff;
+    border-radius: 10px;
+  }
+  &. .tab:nth-child(3):hover svg{
+    background: #fff;
+    color: var(--businesslab-primary);;
+  }
 }
 
 body:not(.footer-nav-ipad) .footer-nav {
