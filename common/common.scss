@@ -6,11 +6,18 @@
     --businesslab-orangeLighter: #636566;
     --businesslab-highlight: #E87722;
     --businesslab-borderLighter: #dbdfe1;
+    --businesslab-bs-r: 1px 0px 4px -1px rgba(0,0,0,0.5);
 
 }
 //CSS root theme
 b, strong{
     font-weight: bold;
+}
+.d-header{
+    &>.wrap{
+    max-width: 100%;
+    padding: 0 1em;
+    }
 }
 /*CSS Custom Footer*/
 .custom-footer {

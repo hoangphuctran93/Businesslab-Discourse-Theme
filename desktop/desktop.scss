@@ -2,12 +2,14 @@
 Source: https://github.com/twimbit/neomorphism-discourse*/
 .sidebar {
     color: rgba(0, 0, 0, 0.87);
+    border-right: 1px solid var(--businesslab-borderLighter);
     transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     background-color: #fff;
+    box-shadow: var(--businesslab-bs-r);
     height:100%;
     width: 68px;
     position: fixed;
-    z-index: 9999;
+    z-index: 2;
     top: 60px;
     left: 0;
 }
@@ -41,7 +43,7 @@ svg:not(:root) {
 }
 h5.sidebar-text {
     font-size: 12px;
-    font-family: Nunito;
+    font-family: var(--font-family);
     font-weight: normal;
     letter-spacing: -0.02em;
     line-height: 19px;
