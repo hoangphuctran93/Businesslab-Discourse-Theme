@@ -19,6 +19,19 @@ b, strong{
     padding: 0 1em;
     }
 }
+//CSS login google one tap
+#google_one_tap{
+    border-radius: 8px !important;
+    & .nsm7Bb-HzV7m-LgbsSe{
+        border: 1px solid rgba(0,0,0,0) !important;
+    }
+    & .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId{
+        font-family: var(--font-family);
+        color: #000;
+        justify-content: flex-start;
+        display: flex;
+    }
+}
 /*CSS Custom Footer*/
 .custom-footer {
     /*background-color: transparent !important;
