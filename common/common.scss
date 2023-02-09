@@ -20,6 +20,16 @@ b, strong{
     padding: 0 1em;
     }
 }
+.d-header-icons {
+    & .icon:not(:last-child){
+        background: var(--businesslab-borderLighter);
+        border-radius: 50%;
+         & svg{
+            font-size: 1.2rem;
+            color: var(--businesslab-secondary)
+         }
+    }
+}
 //CSS Loading
 .loading-indicator-container .loading-indicator{
     background-color: var(--businesslab-primary)
