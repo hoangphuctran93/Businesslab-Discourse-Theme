@@ -26,6 +26,7 @@ b, strong{
 //CSS login google one tap
 #google_one_tap{
     border-radius: 8px !important;
+    display: none;
     & iframe  html  body > div > div{
         &.nsm7Bb-HzV7m-LgbsSe{
             border: none !important;
