@@ -1,48 +1,56 @@
 /*CSS Mobile menu*/
 html:not(.anon) {
+
   #topic-progress-wrapper,
   #reply-control.draft {
-	bottom: 49px;
+    bottom: 49px;
   }
+
   #reply-control.draft {
-	margin-bottom: env(safe-area-inset-bottom);
-	padding-bottom: 0px;
-	transition: all .1s ease-out;
+    margin-bottom: env(safe-area-inset-bottom);
+    padding-bottom: 0px;
+    transition: all .1s ease-out;
   }
+
   .posts-filtered-notice {
-	transition: all .1s ease-out;
-	bottom: 49px;
-  } 
+    transition: all .1s ease-out;
+    bottom: 49px;
+  }
 }
 
 body.tab-bar-hidden {
   .d-tab-bar {
-	bottom: -49px;
-	transition: all .2s ease-in;
+    bottom: -49px;
+    transition: all .2s ease-in;
   }
+
   #topic-progress-wrapper:not(.docked),
   #reply-control.draft {
-	bottom: 0;
-	transition: all .2s ease-in;
+    bottom: 0;
+    transition: all .2s ease-in;
   }
+
   #reply-control.draft {
-	margin-bottom: env(safe-area-inset-bottom);
-	padding-bottom: 0px;
-	transition: all .2s ease-in;
+    margin-bottom: env(safe-area-inset-bottom);
+    padding-bottom: 0px;
+    transition: all .2s ease-in;
   }
+
   .posts-filtered-notice {
-	transition: all .2s ease-in;
-	bottom: 0;
+    transition: all .2s ease-in;
+    bottom: 0;
   }
 }
 
 .d-tab-bar {
   transition: all .1s ease-out;
-  & .tab.active{
+
+  & .tab.active {
     color: var(--businesslab-primary);
     position: relative;
   }
-  & .tab.active::before{
+
+  & .tab.active::before {
     content: '';
     position: absolute;
     top: 0;
@@ -51,18 +59,21 @@ body.tab-bar-hidden {
     background: var(--businesslab-primary);
     border-radius: 0px 0px 2px 2px;
   }
-  & .tab:nth-child(3) svg{
+
+  & .tab:nth-child(3) svg {
     padding: 0.5em;
     font-size: 1.5em;
-    background: var(--businesslab-primary) ;
-    color: #fff ;
+    background: var(--businesslab-primary);
+    color: #fff;
     border-radius: 10px;
   }
-  & .tab:nth-child(3):hover svg{
+
+  & .tab:nth-child(3):hover svg {
     background: #fff;
     color: var(--businesslab-primary);
   }
-  & .tab:nth-child(3).active::before{
+
+  & .tab:nth-child(3).active::before {
     content: none;
   }
 }
@@ -72,54 +83,60 @@ body:not(.footer-nav-ipad) .footer-nav {
 }
 
 .custom-footer {
-    padding-bottom: 65px;
+  padding-bottom: 65px;
 }
 
-html:not(.anon) #topic-progress-wrapper:not(.docked){
-    bottom: 55px;
+html:not(.anon) #topic-progress-wrapper:not(.docked) {
+  bottom: 55px;
 }
 
 
 //CSS Topic
-html body #main-outlet{
+html body #main-outlet {
   background: #f9fcff !important;
 }
-#main-outlet-wrapper #main-outlet{
+
+#main-outlet-wrapper #main-outlet {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 /*CSS Custom theme*/
-#main-outlet-wrapper #main-outlet{
-    padding: 30px 15px;
+#main-outlet-wrapper #main-outlet {
+  padding: 30px 15px;
 }
 
-html .background-container{
+html .background-container {
   position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(225deg, rgba(233,120,34,0.4962359943977591) 0%, rgba(233,120,34,0.25253851540616246) 50%);
+  background: linear-gradient(225deg, rgba(233, 120, 34, 0.4962359943977591) 0%, rgba(233, 120, 34, 0.25253851540616246) 50%);
   clip-path: ellipse(148% 70% at 91% -14%);
 }
+
 //CSS Header
-.d-header-icons .search-dropdown{
-    display: none;
+.d-header-icons .search-dropdown {
+  display: none;
 }
+
 /*#main-outlet-wrapper{
     padding: 0px;
 }*/
 /*CSS Cover Wellcome Banner*/
-.above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
-    background-position-x: right;
-    background-position-y: bottom;
-    padding: 1em 0;
+.above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper {
+  background-position-x: right;
+  background-position-y: bottom;
+  padding: 1em 0;
 }
+
 /*CSS Footer*/
-.custom-footer{
-    padding: 0 10px 35px;
+.custom-footer {
+  padding: 0 10px 35px;
 }
-.custom-footer .list{
-}
+
+.custom-footer .list {}
+
 /*CSS Composer button bar suggestions*/
 #reply-control {
   .submit-panel {
@@ -129,19 +146,24 @@ html .background-container{
 
 .d-editor-textarea-wrapper {
   flex-direction: column-reverse;
+
   .d-editor-input {
     // Bigger padding on bottom to prevent the last line selection covers the buttons bar
     padding-bottom: 1.75em;
   }
+
   .d-editor-button-bar {
     border-top: 1px solid var(--primary-low);
     border-bottom: none;
+
     // Popup menu
     .select-kit.dropdown-select-box.toolbar-popup-menu-options {
       position: static;
+
       .select-kit-filter {
         display: none;
       }
+
       .select-kit-body {
         transform: none !important;
         top: auto !important;
@@ -154,39 +176,49 @@ html .background-container{
         background: var(--primary-very-low);
         border: none;
       }
+
       .select-kit-row {
         padding: 0.5em 0.65em;
         border: 1px solid transparent;
         border-top: none;
       }
+
       .select-kit-collection {
         display: contents;
       }
     }
   }
 }
+
 /*CSS Topic list body*/
-.topic-list-header{
-    display: flex !important;
-    background: #f9fcff !important;
-    & tr {
+.topic-list-header {
+  display: flex !important;
+  background: #f9fcff !important;
+
+  & tr {
     align-items: center !important;
     justify-content: space-around !important;
-        & th.views.num.topic-list-data, th.activity.num.topic-list-data, th.posters.topic-list-data{
-        display: none;
+
+    & th.views.num.topic-list-data,
+    th.activity.num.topic-list-data,
+    th.posters.topic-list-data {
+      display: none;
     }
-    }
-}
-.topic-list-header tr{
-    border: 0px;
-}
-.topic-list.sticky-header .topic-list-header tr{
-    justify-content: space-between !important
-}
-.topic-list-data .pull-left{
-    padding: 5px;
-}
-tr.topic-list-item-separator td.topic-list-data{
-    max-width: none !important;
+  }
 }
 
+.topic-list-header tr {
+  border: 0px;
+}
+
+.topic-list.sticky-header .topic-list-header tr {
+  justify-content: space-between !important
+}
+
+.topic-list-data .pull-left {
+  padding: 5px;
+}
+
+tr.topic-list-item-separator td.topic-list-data {
+  max-width: none !important;
+}
