@@ -24,6 +24,7 @@
     & .search-input {
         border: 0px;
         & #search-term {
+            border-radius: 50px !important;
             background-color: var(--d-selected);
         }
 
