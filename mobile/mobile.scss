@@ -83,6 +83,16 @@ html:not(.anon) #topic-progress-wrapper:not(.docked){
 #main-outlet-wrapper #main-outlet{
     padding: 30px 15px;
 }
+
+html .background-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(225deg, rgba(233,120,34,0.4962359943977591) 0%, rgba(233,120,34,0.25253851540616246) 50%);
+  clip-path: ellipse(148% 70% at 91% -14%);
+}
 //CSS Header
 .d-header-icons .search-dropdown{
     display: none;
