@@ -4,7 +4,9 @@
     margin: 0 auto !important;
     margin-top: 12px !important;
 
-
+    &.show-header-results {
+        border-radius: 20px 20px 0px 0px !important;
+    }
 
     & .search-icon {
         position: absolute;
@@ -30,9 +32,6 @@
         }
     }
 
-    &.show-header-results {
-        border-radius: 20px 20px 0px 0px !important;
-    }
 }
 /*CSS Left navigation sidebar
 Source: https://github.com/twimbit/neomorphism-discourse*/
