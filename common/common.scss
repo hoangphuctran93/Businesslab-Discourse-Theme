@@ -286,20 +286,6 @@ blockquote p{
     border-radius: 5px 5px 0px 0px;
 }
 .topic-list-header{
-    background-color: unset !important;
-}
-.topic-list .topic-list-header tr{
-    min-height: 58px;
-    border-radius: 5px;
-    & th:first-child{
-        display: flex;
-        align-items: center;
-        & span {
-            padding-left: 5px;
-        }
-    }
-}
-.topic-list-header{
     display: contents;
     & tr {
     width: 100%;
@@ -313,6 +299,20 @@ blockquote p{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
     overflow: hidden;
     background: var(--primary-low) !important;
+    & tr{
+        background-color: unset !important;
+        border: 0px;
+        box-shadow: none;
+        min-height: 58px;
+        border-radius: 5px;
+        & th:first-child{
+            display: flex;
+            align-items: center;
+            & span {
+                padding-left: 5px;
+            }
+        }
+    }
     & th.default.topic-list-data{
         width: 60%;
     }
