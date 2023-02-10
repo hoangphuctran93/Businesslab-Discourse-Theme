@@ -5,7 +5,7 @@
     justify-content: flex-end;
     flex-wrap: wrap;
         & td.main-link{
-            width: 100%;
+            width: 100% !important;
         }
     }
 }
