@@ -285,7 +285,9 @@ blockquote p{
 #list-area .show-more .alert {
     border-radius: 5px 5px 0px 0px;
 }
-
+.topic-list-header{
+    background-color: unset !important;
+}
 .topic-list .topic-list-header tr{
     min-height: 58px;
     border-radius: 5px;
