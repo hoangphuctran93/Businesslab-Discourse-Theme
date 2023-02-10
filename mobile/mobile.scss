@@ -62,13 +62,6 @@ body.tab-bar-hidden {
     background: #fff;
     color: var(--businesslab-primary);
   }
-  & .tab:nth-child(3).active{
-    padding: 0.5em;
-    font-size: 1.5em;
-    background: var(--businesslab-primary) ;
-    color: #fff ;
-    border-radius: 10px;
-  }
   & .tab:nth-child(3).active::before{
     content: none;
   }
