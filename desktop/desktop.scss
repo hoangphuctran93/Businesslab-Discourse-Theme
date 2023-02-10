@@ -23,13 +23,13 @@
                 font-family: "Font Awesome 5 Free";
                 font-weight: normal;
             }
-            & .number::before{
+            &.views  .number::before{
                 content: "\f06e";
                 font-family: "Font Awesome 5 Free";
                 font-weight: normal;
             }
             &.activity{
-                display: none;
+                display: none !important;
             }
         }
     }
