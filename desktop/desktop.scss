@@ -36,8 +36,14 @@
             border-color: unset;
         }
     }
-    & .search-input:hover #search-term{
-        background-color: var(--d-selected);
+    & .search-input:hover {
+        & #search-term{
+            background-color: var(--d-selected);
+        }
+        &:focus-within #search-term{
+            background-color: var(--d-hover);
+        }
+        
 
     }
 
