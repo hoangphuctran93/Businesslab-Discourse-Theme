@@ -2,7 +2,7 @@
 .title .search-header {
     width: calc(var(--d-max-width)*.65);
     margin: 0 auto !important;
-    margin-top: 12px !important;
+    margin-top: 10px !important;
 
     &.show-header-results {
         border-radius: 20px 20px 0px 0px !important;
@@ -16,7 +16,8 @@
         padding: 10px 35px;
         border-radius: 50px !important;
         border:0px !important;
-
+        top: 3.5px;
+        right: 5px;
         & svg {
             color: #fff;
         }
@@ -26,13 +27,17 @@
         border: 0px;
         & #search-term {
             border-radius: 50px !important;
-            background-color: var(--d-selected);
+            background-color: var(--d-hover);
+            height: 42px;
         }
 
         &:focus-within {
             outline: 0px;
             border-color: unset;
         }
+    }
+    & .search-input:hover{
+        background-color: var(--d-selected);
     }
 
 }
