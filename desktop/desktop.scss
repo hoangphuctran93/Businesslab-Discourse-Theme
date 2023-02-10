@@ -12,12 +12,15 @@
             padding: 12px 5px !important;
             line-height: var(--line-height-large);
         }
-    }
-    & td.topic-list-data{
-        padding: 0px !important;
-        line-height: 0px;
-        & .badge-posts{
+        td.topic-list-data{
+            padding: 0px !important;
             line-height: 0px;
+            & .badge-posts{
+                line-height: 0px;
+            }
+            & .badge-posts::before{
+                content: "red";
+            }
         }
     }
 }
