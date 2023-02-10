@@ -1,3 +1,7 @@
+//CSS Theme
+html body #main-outlet{
+    background: unset !important;
+}
 //CSS Header search
 .title .search-header {
     width: calc(var(--d-max-width)*.65);
