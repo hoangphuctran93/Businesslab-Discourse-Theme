@@ -1,5 +1,11 @@
 //CSS Topic
-
+.topic-list-body{
+    & tr{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    }
+}
 //CSS Header search
 .title .search-header {
     width: calc(var(--d-max-width)*.65);
