@@ -19,7 +19,8 @@
                 line-height: 0px;
             }
             & .badge-posts::before{
-                content: url("data:image/svg+xml,%3Csvg class='fa d-icon d-icon-far-eye svg-icon svg-string' xmlns='http://www.w3.org/2000/svg'%3E%3Cuse href='%23far-eye'%3E%3C/use%3E%3C/svg%3E");;
+                content: "\f06e";
+                font-family: "Font Awesome 5 Free";
             }
         }
     }
