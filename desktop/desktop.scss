@@ -4,9 +4,7 @@
     margin: 0 auto !important;
     margin-top: 12px !important;
 
-    &.show-header-results {
-        border-radius: 20px 20px 0px 0px !important;
-    }
+
 
     & .search-icon {
         position: absolute;
@@ -28,8 +26,12 @@
         }
 
         &:focus-within {
-            outline: : 0px;
+            outline: 0px;
         }
+    }
+
+    &.show-header-results {
+        border-radius: 20px 20px 0px 0px !important;
     }
 }
 /*CSS Left navigation sidebar
