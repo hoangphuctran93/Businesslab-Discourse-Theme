@@ -1,18 +1,35 @@
 //CSS Header search
-.title .search-header{
+.title .search-header {
     width: calc(var(--d-max-width)*.8);
     margin: 0 auto !important;
     margin-top: 12px !important;
-    & .search-icon{
-    position: absolute;
-    background: var(--businesslab-primary);
-    z-index: 2;
-    right: 0;
-    padding: 10px 35px;
-    border-radius: 50px !important;
-    & svg{
-        color: #fff;
+
+    &.show-header-results {
+        border-radius: 20px 20px 0px 0px !important;
     }
+
+    & .search-icon {
+        position: absolute;
+        background: var(--businesslab-primary);
+        z-index: 2;
+        right: 0;
+        padding: 10px 35px;
+        border-radius: 50px !important;
+
+        & svg {
+            color: #fff;
+        }
+    }
+
+    & .search-input {
+
+        & #search-term {
+            background-color: var(--d-selected);
+        }
+
+        &:focus-within {
+            outline: : 0px;
+        }
     }
 }
 /*CSS Left navigation sidebar
