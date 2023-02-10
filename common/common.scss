@@ -308,7 +308,6 @@ blockquote p{
     position: relative;
     transition: box-shadow 100ms ease-in-out;
     overflow: hidden;
-    background: var(--primary-low) !important;
     & th.default.topic-list-data{
         width: 60%;
     }
