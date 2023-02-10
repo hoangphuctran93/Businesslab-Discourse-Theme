@@ -28,6 +28,10 @@
             color: #fff;
         }
     }
+    & .search-icon:hover{
+        box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+        opacity: 1;
+    }
 
     & .search-input {
         border: 0px;
