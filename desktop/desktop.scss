@@ -36,8 +36,9 @@
             border-color: unset;
         }
     }
-    & .search-input:hover{
+    & .search-input:hover #search-term{
         background-color: var(--d-selected);
+
     }
 
 }
