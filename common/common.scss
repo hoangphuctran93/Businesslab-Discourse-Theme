@@ -33,6 +33,8 @@ b, strong{
         }
     }
     li:hover{
+        box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%);
+        opacity: 1;
         & .icon svg{
             color: var(--businesslab-primary) !important;
         }
