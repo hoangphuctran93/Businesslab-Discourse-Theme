@@ -1,4 +1,9 @@
 //CSS Topic
+.topic-list-header{
+    & th.posters, th.posts, th.activity  {
+        display: None !important;
+    }
+}
 .topic-list-body{
     & tr{
     display: flex;
