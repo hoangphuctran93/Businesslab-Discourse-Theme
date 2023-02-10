@@ -1,4 +1,13 @@
 //CSS Topic
+.topic-list{
+    &.sticky-header{
+        & .topic-list-body{
+            & td.main-link{
+                width: 90% !important;
+            }
+        }
+    }
+}
 .topic-list-header{
     & th.posters, th.views , th.posts, th.activity  {
         display: None !important;
