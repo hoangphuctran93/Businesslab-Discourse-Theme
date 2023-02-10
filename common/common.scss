@@ -135,9 +135,6 @@ b, strong{
     width: initial;
 }
 
-.topic-list-header{
-    background-color: var(--primary-low) !important;
-}
 #main-outlet-wrapper #main-outlet{
     margin-top: 30px;
     margin-bottom: 50px;
@@ -288,6 +285,7 @@ blockquote p{
 #list-area .show-more .alert {
     border-radius: 5px 5px 0px 0px;
 }
+
 .topic-list .topic-list-header tr{
     min-height: 58px;
     border-radius: 5px;
