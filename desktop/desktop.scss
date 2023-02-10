@@ -22,11 +22,13 @@
                 content: "\f086";
                 font-family: "Font Awesome 5 Free";
                 font-weight: normal;
+                margin-right: 3px;
             }
             &.views  .number::before{
                 content: "\f06e";
                 font-family: "Font Awesome 5 Free";
                 font-weight: normal;
+                margin-right: 3px;
             }
             &.activity{
                 display: none !important;
