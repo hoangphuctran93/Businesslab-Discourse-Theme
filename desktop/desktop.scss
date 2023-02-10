@@ -4,6 +4,9 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+        & td.main-link{
+            width: 100%;
+        }
     }
 }
 //CSS Header search
