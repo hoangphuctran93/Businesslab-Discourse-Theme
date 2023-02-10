@@ -29,6 +29,7 @@
 
         &:focus-within {
             outline: 0px;
+            border-color: unset;
         }
     }
 
