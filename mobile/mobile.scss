@@ -79,6 +79,14 @@ html:not(.anon) #topic-progress-wrapper:not(.docked){
     bottom: 55px;
 }
 
+
+//CSS Topic
+html body #main-outlet{
+  background: #f9fcff !important;
+}
+#main-outlet-wrapper #main-outlet{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 /*CSS Custom theme*/
 #main-outlet-wrapper #main-outlet{
     padding: 30px 15px;
