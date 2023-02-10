@@ -6,7 +6,11 @@
     flex-wrap: wrap;
         & td.main-link{
             width: 100% !important;
+            padding: 12px 5px !important;
         }
+    }
+    & td.topic-list-data{
+        padding: 0px !important;
     }
 }
 //CSS Header search
