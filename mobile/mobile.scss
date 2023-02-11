@@ -218,8 +218,7 @@ tr.topic-list-item-separator td.topic-list-data {
 }
 //CSS Theme-component discourse-theme-category-homepage
 ul.tag-links {
-  background: Blue;
-  & li a {
+  & li a:not(:first-child) {
     height: 1.3em;
     line-height: 1.3em;
     padding: 0 4px 0 1em;
