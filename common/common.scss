@@ -104,6 +104,11 @@ strong {
         }
     }
 }
+#suggested-topics{
+    & .topic-list-body tr:not(:last-child){
+        border-bottom: 1px solid #d9e1ec;
+    }
+}
 /*CSS Custom Footer*/
 .custom-footer {
     /*background-color: transparent !important;
