@@ -74,11 +74,6 @@ strong {
     }
 }
 
-//CSS Loading
-.loading-indicator-container .loading-indicator {
-    background-color: var(--businesslab-primary)
-}
-
 //CSS hide login google one tap
 #google_one_tap {
     display: none;
@@ -172,6 +167,10 @@ strong {
 /*CSS Custom theme*/
 #main>div #main-outlet {
     width: initial;
+}
+//CSS Loading
+.loading-indicator-container .loading-indicator {
+    background-color: var(--businesslab-primary)
 }
 
 #main-outlet-wrapper #main-outlet {
