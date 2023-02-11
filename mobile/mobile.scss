@@ -273,9 +273,15 @@ tr.topic-list-item-separator td.topic-list-data {
     }
     & .right{
       margin-left: 0px;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
       & .topic-list-thumbnail{
         width: 100% !important;
         height: 220px !important;
+      }
+      & .main-link{
+        width: 100%;
       }
     }
   }
