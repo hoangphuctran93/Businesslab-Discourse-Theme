@@ -262,6 +262,7 @@ tr.topic-list-item-separator td.topic-list-data {
 //CSS Topic list
 .topic-list-body tr{
   border: unset !important;
+  border-radius: 8px !important;
   &:not(:first-child){
     margin: 16px 0px !important;
   }
@@ -288,10 +289,6 @@ tr.topic-list-item-separator td.topic-list-data {
         margin-right: 0px;
         order: 1;
         display: flex;
-        border-radius: 8px 8px 0px 0px;
-        & a::after{
-          border-radius: 8px 8px 0px 0px;
-        }
       }
       & .main-link{
         width: 100%;
