@@ -135,6 +135,12 @@ strong {
         & .list span {
             color: var(--businesslab-primary)
         }
+        //CSS Add icon partner to footer
+        & .liên-kết{
+            .marketing-platform::before{
+                content: "";
+            }
+        }
     }
 
     & .third-box {
