@@ -265,7 +265,7 @@ tr.topic-list-item-separator td.topic-list-data {
   & .topic-list-data{
     max-width: 100%;
     border-left: 0px !important;
-    padding: 5px 5px 15px;
+    padding: 0px 5px 15px;
     & .pull-left{
       display: none !important;
     }
@@ -275,7 +275,7 @@ tr.topic-list-item-separator td.topic-list-data {
       flex-wrap: wrap;
       flex-direction: row;
       & .topic-list-thumbnail{
-        width: 100% !important;
+        width: calc(100% + 10px) !important;
         height: 220px !important;
         margin-right: 0px;
         order: 1;
