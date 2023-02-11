@@ -384,4 +384,12 @@ tr.topic-list-item-separator td.topic-list-data {
     padding: 15Px 10px 20px;
   }
 }
+#suggested-topics{
+  & .topic-list-header{
+    display: none !important;
+  }
+  & .topic-list-body tr{
+    padding-top: 15px;
+  }
+}
 /*End CSS Topic list like social*/
