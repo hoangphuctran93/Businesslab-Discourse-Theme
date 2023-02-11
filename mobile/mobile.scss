@@ -234,9 +234,6 @@ tr.topic-list-item-separator td.topic-list-data {
 }
 .navigation-container {
   & .navigation-controls{
-    & >.bulk-select.btn.no-text.btn-icon{
-      display: none !important;
-    }
     & .category-breadcrumb{
       display: flex !important;
       & {
