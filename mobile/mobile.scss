@@ -218,6 +218,7 @@ tr.topic-list-item-separator td.topic-list-data {
 }
 
 /*Start CSS Topic list like social*/
+//CSS naviation control
 #main-outlet-wrapper #main-outlet{
   padding: 0px !important;
   background: unset !important;
@@ -258,6 +259,10 @@ tr.topic-list-item-separator td.topic-list-data {
       }
     }
   }
+}
+//CSS Topic list
+.topic-list-body tr{
+  border: unset !important;
 }
 
 /*End CSS Topic list like social*/
