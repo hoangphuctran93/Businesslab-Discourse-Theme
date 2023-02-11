@@ -216,3 +216,8 @@ html .background-container {
 tr.topic-list-item-separator td.topic-list-data {
   max-width: none !important;
 }
+
+//CSS Topic list
+.topic-list-header .posts.num {
+  display: none;
+}
