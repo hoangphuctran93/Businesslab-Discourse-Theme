@@ -262,6 +262,12 @@ tr.topic-list-item-separator td.topic-list-data {
 //CSS Topic list
 .topic-list-body tr{
   border: unset !important;
+  &:not(:first-child){
+    margin: 8px 0px !important;
+  }
+  &:last-child{
+    margin-bottom: 0px !important;
+  }
   & .topic-list-data{
     max-width: 100%;
     border-left: 0px !important;
