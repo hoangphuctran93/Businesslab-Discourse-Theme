@@ -218,17 +218,14 @@ tr.topic-list-item-separator td.topic-list-data {
 }
 
 //CSS Topic list
-// Tạm thời
-.alert.alert-info.alert-too-few-topics,.alert.alert-info.alert-bootstrap-mode{
-  display: none;
-}
-.list-controls{
-  & .hidden.category-breadcrumb.ember-view{
-    display: block !important;
-  }
-}
 .topic-list-header {
   & .posts.num{
+    display: none !important;
+  }
+  & .default {
+    display: none !important;
+  }
+  & .bulk-select.topic-list-data{
     display: none !important;
   }
 }
