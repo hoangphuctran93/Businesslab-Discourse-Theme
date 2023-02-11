@@ -216,3 +216,23 @@ html .background-container {
 tr.topic-list-item-separator td.topic-list-data {
   max-width: none !important;
 }
+//CSS Theme-component discourse-theme-category-homepage
+a.discourse-tag {
+  height: 1.3em;
+  line-height: 1.3em;
+  padding: 0 4px 0 1em;
+  position: relative;
+  bottom:0;
+  margin-right: .5em!important;
+  background: var(--primary-medium) !important;
+  color: var(--primary) !important;
+  text-decoration: none;
+  border-bottom-right-radius: .25em;
+  border-top-right-radius: .25em;
+  border-bottom-left-radius: 1em;
+  border-top-left-radius: 1em;
+  mask-image: radial-gradient(.2em at .5em 50% , transparent 100%, black 100%);
+  & :hover, :visited{
+      background-color: var(--primary-high) !important;
+  }
+}
