@@ -366,5 +366,16 @@ tr.topic-list-item-separator td.topic-list-data {
     }
   }
 }
-
+// CSS Topic
+.regular.ember-view{
+  & .topic-above-post-stream-outlet{
+    background: #fff;
+    border-radius: 8px 8px 0px 0px;
+  }
+  & #topic-title{
+    background: #fff;
+    border-radius: 0px 0px 8px 8px;
+    padding: 15Px 10px 20px;
+  }
+}
 /*End CSS Topic list like social*/
