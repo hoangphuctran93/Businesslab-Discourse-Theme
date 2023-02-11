@@ -284,6 +284,14 @@ tr.topic-list-item-separator td.topic-list-data {
         width: 100%;
         & .topic-excerpt{
           width: 100%;
+          &::after{
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: var(--primary-low);
+            display: inline-block;
+            position: relative;
+          }
         }
       }
     }
