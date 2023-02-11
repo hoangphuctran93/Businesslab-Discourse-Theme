@@ -495,3 +495,8 @@ tr.topic-list-item-separator {
 tr.topic-list-item-separator td.topic-list-data {
     width: 100% !important;
 }
+.suggested-topics-message {
+    &.badge-category-bg{
+        border-radius: 2px;
+    }
+}
