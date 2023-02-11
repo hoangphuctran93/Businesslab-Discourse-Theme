@@ -1,4 +1,4 @@
-/*CSS Mobile menu*/
+/*CSS auto-hider mobile menu when user scrolls down, source:https://meta.discourse.org/t/discourse-tab-bar-for-mobile/75696/116?u=hoangphuctran93 */
 html:not(.anon) {
 
   #topic-progress-wrapper,
@@ -82,10 +82,6 @@ body:not(.footer-nav-ipad) .footer-nav {
   display: none;
 }
 
-.custom-footer {
-
-}
-
 html:not(.anon) #topic-progress-wrapper:not(.docked) {
   bottom: 55px;
 }
@@ -137,7 +133,6 @@ html .background-container {
     & .social{
     }
   }
-
 }
 
 /*CSS Composer button bar suggestions*/
