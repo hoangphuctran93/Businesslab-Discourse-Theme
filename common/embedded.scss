@@ -4,12 +4,3 @@
 //--my theme-tertiary-or-quaternary: #{dark-light-choose($tertiry,$quaternary)};
 //}
 //Perfixing the property names is highly recommended to avoid conflicts with plugin and/or core.
-// Tạm thời
-.alert.alert-info.alert-too-few-topics,.alert.alert-info.alert-bootstrap-mode{
-    display: none;
-  }
-  .list-controls{
-    & .hidden.category-breadcrumb.ember-view{
-      display: block !important;
-    }
-  }
