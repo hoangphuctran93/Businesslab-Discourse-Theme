@@ -83,7 +83,7 @@ body:not(.footer-nav-ipad) .footer-nav {
 }
 
 .custom-footer {
-  padding-bottom: 65px;
+
 }
 
 html:not(.anon) #topic-progress-wrapper:not(.docked) {
@@ -133,9 +133,12 @@ html .background-container {
 /*CSS Footer*/
 .custom-footer {
   padding: 0 10px 35px;
-}
+  & .third-box{
+    & .social{
+    }
+  }
 
-.custom-footer .list {}
+}
 
 /*CSS Composer button bar suggestions*/
 #reply-control {
