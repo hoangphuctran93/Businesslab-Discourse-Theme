@@ -282,6 +282,9 @@ tr.topic-list-item-separator td.topic-list-data {
       }
       & .main-link{
         width: 100%;
+        & .topic-excerpt{
+          width: 100%;
+        }
       }
     }
   }
