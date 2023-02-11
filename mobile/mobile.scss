@@ -308,7 +308,7 @@ tr.topic-list-item-separator td.topic-list-data {
         & .number{
           font-weight: normal;
           font-size: Var(--base-font-size-smallest);
-          &::after{
+          &::before{
             content: "\f086";
             font-family: var(--fa-style-family-classic);
             font-size: .95rem;
@@ -325,7 +325,7 @@ tr.topic-list-item-separator td.topic-list-data {
         & .num.activity.last{
           margin-right: 10Px;
         }
-        & .age.activity::after{
+        & .age.activity::before{
             content: "\f0e7";
             font-family: var(--fa-style-family-classic);
             font-size: .95rem;
