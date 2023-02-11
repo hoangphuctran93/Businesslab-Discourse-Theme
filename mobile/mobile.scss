@@ -266,6 +266,7 @@ tr.topic-list-item-separator td.topic-list-data {
   border: unset !important;
   & .topic-list-data{
     max-width: 100%;
+    border-left: 0px !important;
     & .pull-left{
       display: none !important;
     }
