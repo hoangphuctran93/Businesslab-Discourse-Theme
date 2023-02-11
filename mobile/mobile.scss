@@ -395,6 +395,9 @@ tr.topic-list-item-separator td.topic-list-data {
   }
   & .topic-list-body tr{
     padding: 15Px 10px 20px;
+    & td{
+      padding: 0px 10px 20px !important;
+    }
   }
 }
 /*End CSS Topic list like social*/
