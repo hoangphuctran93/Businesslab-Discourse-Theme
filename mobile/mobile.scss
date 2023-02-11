@@ -219,7 +219,7 @@ tr.topic-list-item-separator td.topic-list-data {
 
 //CSS Topic list
 .topic-list-header {
-  & .posts.num, & .default , & .bulk-select.topic-list-data{
+  & .posts.num , & .bulk-select.topic-list-data{
     display: none !important;
   }
 }
