@@ -274,14 +274,21 @@ tr.topic-list-item-separator td.topic-list-data {
     & .right{
       margin-left: 0px;
       display: flex;
-      flex-wrap: nowrap;
-      flex-direction: column;
+      flex-wrap: wrap;
+      flex-direction: row;
       & .topic-list-thumbnail{
         width: 100% !important;
         height: 220px !important;
+        margin-right: 0px;
       }
       & .main-link{
         width: 100%;
+        & .pull-right{
+          width: 7%;
+        }
+        & .topic-item-stats.clearfix{
+          width: 93%;
+        }
         & .topic-excerpt{
           width: 100%;
           &::after{
