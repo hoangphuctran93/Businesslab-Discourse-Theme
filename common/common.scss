@@ -228,6 +228,8 @@ input,
     color: var(--primary-900);
 }
 
+/*CSS Category*/
+
 /*CSS Change color follow category color
 :root {
   --composer-category-text-color: var(--secondary);
@@ -239,10 +241,9 @@ input,
     background-color: var(--category-color);
     color: var(--category-text-color);
 }*/
-
-/*CSS Category*/
 td.main-link.clearfix.topic-list-data {
     display: block !important;
+    
 }
 
 td.main-link.clearfix.topic-list-data div.topic-list-thumbnail.has-thumbnail.landscape,
