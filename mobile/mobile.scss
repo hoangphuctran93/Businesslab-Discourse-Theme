@@ -263,10 +263,12 @@ tr.topic-list-item-separator td.topic-list-data {
 .topic-list-body tr{
   border: unset !important;
   &:not(:first-child){
-    margin: 8px 0px !important;
+    padding: 8px 0px !important;
+    margin-bottom: 0px;
   }
   &:last-child{
-    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px;
   }
   & .topic-list-data{
     max-width: 100%;
