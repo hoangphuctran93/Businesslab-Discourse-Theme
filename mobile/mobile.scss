@@ -218,6 +218,11 @@ tr.topic-list-item-separator td.topic-list-data {
 }
 
 //CSS Topic list
-.topic-list-header .posts.num {
+// Tạm thời
+.alert.alert-info.alert-too-few-topics,.alert.alert-info.alert-bootstrap-mode{
+  display: none;
+}
+
+.topic-list-header {
   display: none;
 }
