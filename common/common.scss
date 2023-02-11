@@ -243,7 +243,7 @@ input,
 }*/
 td.main-link.clearfix.topic-list-data {
     display: block !important;
-    
+
 }
 
 td.main-link.clearfix.topic-list-data div.topic-list-thumbnail.has-thumbnail.landscape,
@@ -462,3 +462,179 @@ tr.topic-list-item-separator {
 tr.topic-list-item-separator td.topic-list-data {
     width: 100% !important;
 }
+
+
+
+
+// Start discourse-theme-category-homepage
+.category-boxes , .category-boxes-with-topics {
+    .category-box{
+        border-style:outset;
+        border-width: 6px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: $target_box_size;
+        
+        align-content: space-between;
+        justify-content: space-between;
+        
+        .category-box-inner{
+            border-width: 0px;
+            padding: .5em;
+            padding-bottom: 0;
+        }
+    }
+    .category-stats{
+        pointer-events: none;
+        position: absolute;
+        top: .5ex;
+        right: 1ex;
+        color: $primary-medium;
+        font-size: small;
+    }
+    .category-logo{
+        .category-notifications-button{
+            float:right;
+            top:2.5ex;
+            button{
+                min-height: 0;
+                background:$secondary;
+                padding: 2px;
+            }
+        }
+        .logo{
+            position:absolute;
+            max-width:50px;
+            
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+        .unread-new{
+            float:left;
+            margin-right: 0;
+            max-width:5em;
+        }
+    }
+    .unread-new{
+        pointer-events: fill;
+        position:relative;
+        z-index:1;
+    }
+    h3{
+        margin-top:2ex;
+    }
+    
+    .direct-access-links{
+        pointer-events: fill;
+        position:relative;
+        text-align: left;
+        
+        //background-color: $primary-very_low;
+    }
+    
+    .no-padding-bottom{
+        padding-bottom: 0;
+    }
+    
+    
+    .tag-list .tag-box{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 0.2em;
+        a{
+            color:$primary-high;
+            font-weight: bold;
+        }
+    }
+    
+    .subcategories{
+        a.badge-wrapper{
+            color:$primary;
+            font-weight: bold;
+        }
+    }
+    
+    .separator {
+        pointer-events: none;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .separator::before, .separator::after {
+        content: '';
+        flex: 1;
+        border-bottom: 1px solid $primary-low;
+    }
+    .separator::before {
+        margin-right: .25em;
+    }
+    .separator::after {
+        margin-left: .25em;
+    }
+}
+
+.category-boxes 
+.discourse-tags .discourse-tag.simple:not(:last-child)::after{
+    content: "";
+    margin:0;
+}
+
+
+
+
+.category-boxes .subcategories .subcategory .subcategory-image-placeholder{
+    margin-right: 0em;
+}
+.tag-icon>.d-icon{
+    margin-right: 5px;
+}
+.category-boxes .subcategories .subcategory .logo img{
+    --height:1em;
+}
+
+
+.category-boxes .subcategories .subcategory .subcategory-image-placeholder .logo{
+    height:1em;
+    margin-right: 3px;
+    img{
+        vertical-align:baseline;
+    }
+}
+
+
+
+.discourse-tags .discourse-tag.simple:not(:last-child)::after{
+    content: "";
+    margin:0;
+}
+
+a.discourse-tag {
+    height: 1.3em;
+    line-height: 1.3em;
+    padding: 0 4px 0 1em;
+    position: relative;
+    bottom:0;
+    margin-right: .5em!important;
+    background: $primary-low;
+    text-decoration: none;
+    -moz-border-radius-bottomright: .25em;
+    -webkit-border-bottom-right-radius: .25em;
+    border-bottom-right-radius: .25em;
+    -moz-border-radius-topright: .25em;
+    -webkit-border-top-right-radius: .25em;
+    border-top-right-radius: .25em;
+    -moz-border-radius-bottomleft: 1em;
+    -webkit-border-bottom-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    -moz-border-radius-topleft: 1em;
+    -webkit-border-top-left-radius: 1em;
+    border-top-left-radius: 1em;
+    -webkit-mask-image: radial-gradient(.2em at .5em 50% , transparent 100%, black 100%);
+    
+    //border-color:$primary-medium;
+    //border-width:1px;
+    //border-style:solid;
+}
+
+//End discourse-theme-category-homepage
