@@ -110,13 +110,6 @@ html .background-container {
   background: linear-gradient(225deg, rgba(233, 120, 34, 0.4962359943977591) 0%, rgba(233, 120, 34, 0.25253851540616246) 50%);
   clip-path: ellipse(148% 70% at 91% -14%);
 }
-//CSS Mobile menu
-.hamburger-panel{
- & a.discourse-tag{
-    background: #e9e9e9 !important;
-    color: var(--primary-high) !important;
-  }
-}
 
 //CSS Header
 .d-header-icons .search-dropdown {
