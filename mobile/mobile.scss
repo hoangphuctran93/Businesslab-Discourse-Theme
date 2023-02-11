@@ -267,6 +267,7 @@ tr.topic-list-item-separator td.topic-list-data {
   & .topic-list-data{
     max-width: 100%;
     border-left: 0px !important;
+    padding: 5px;
     & .pull-left{
       display: none !important;
     }
@@ -275,9 +276,6 @@ tr.topic-list-item-separator td.topic-list-data {
       & .topic-list-thumbnail{
         width: 100% !important;
         height: 220px !important;
-      }
-      &:not(:first-child){
-        padding: 5px;
       }
     }
   }
