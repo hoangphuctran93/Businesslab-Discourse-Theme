@@ -307,7 +307,10 @@ tr.topic-list-item-separator td.topic-list-data {
         width: 93%;
         order: 3;
         display: flex;
-        margin-top: 0px;
+        margin-top: 0px !important;
+        & .num.activity.last{
+          margin-right: 10Px;
+        }
       }
     }
   }
