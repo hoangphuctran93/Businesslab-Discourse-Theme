@@ -264,6 +264,17 @@ tr.topic-list-item-separator td.topic-list-data {
 //CSS Topic list
 .topic-list-body tr{
   border: unset !important;
+  & .topic-list-data{
+    & .pull-left{
+      display: none !important;
+    }
+    & .right{
+      & .topic-list-thumbnail.no-thumbnail{
+        width: 100% !important;
+        height: 360px !important;
+      }
+    }
+  }
 }
 
 /*End CSS Topic list like social*/
