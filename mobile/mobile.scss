@@ -275,7 +275,9 @@ tr.topic-list-item-separator td.topic-list-data {
       flex-wrap: wrap;
       flex-direction: row;
       & .topic-list-thumbnail{
-        width: calc(100% + 10px) !important;
+        width: 100% !important;
+        min-width: calc(100% + 20px) !important;
+        margin-left: -10px;
         height: 220px !important;
         margin-right: 0px;
         order: 1;
@@ -302,6 +304,7 @@ tr.topic-list-item-separator td.topic-list-data {
         width: 7%;
         order: 4;
         display: flex;
+        justify-content: space-around;
       }
       & .topic-item-stats.clearfix{
         width: 93%;
