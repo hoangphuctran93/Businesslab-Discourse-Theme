@@ -255,6 +255,18 @@ tr.topic-list-item-separator td.topic-list-data {
     & {
       & li {
         border-radius: 8px !important;
+        & details.category-drop{
+          border-radius: 8px !important;
+          & summary{
+            border-radius: 8px !important;
+          }
+        }
+        & details.tag-drop{
+          border-radius: 8px !important;
+          & summary{
+            border-radius: 8px !important;
+          }
+        }
       }
     }
   }
