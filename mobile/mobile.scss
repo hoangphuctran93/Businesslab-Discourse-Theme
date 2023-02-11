@@ -305,6 +305,17 @@ tr.topic-list-item-separator td.topic-list-data {
         order: 4;
         display: flex;
         justify-content: space-around;
+        & .number{
+          font-weight: normal;
+          font-size: Var(--base-font-size-smallest);
+          &::after{
+            content: "\f086";
+            font-family: var(--fa-style-family-classic);
+            font-size: .95rem;
+            font-weight: normal;
+            margin-right: 3px;
+          }
+        }
       }
       & .topic-item-stats.clearfix{
         width: 93%;
