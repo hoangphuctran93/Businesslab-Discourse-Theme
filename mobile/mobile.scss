@@ -223,6 +223,14 @@ tr.topic-list-item-separator td.topic-list-data {
   background: unset !important;
   box-shadow: unset !important
 }
+.list-controls{
+  padding: 20px 10px 10px;
+  background: var(--header_background);
+  & #navigation-bar , & .navigation-controls {
+    margin-top: var(--nav-space);
+    margin-bottom: 0px;
+  }
+}
 .topic-list-header {
   background: unset !important;
   & .posts.num, & .bulk-select.topic-list-data{
