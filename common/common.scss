@@ -78,6 +78,17 @@ strong {
 #google_one_tap {
     display: none;
 }
+//CSS Topic
+.topic-area{
+    & .topic-body.clearfix {
+        & .cooked{
+            background: #fff;
+            border-radius: 15px;
+            padding: 20px 25px 10px;
+            box-shadow: 1px 4px 8px 1px #e1dede;
+        }
+    }
+}
 /*CSS Custom Footer*/
 .custom-footer {
     /*background-color: transparent !important;
