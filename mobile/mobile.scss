@@ -217,12 +217,14 @@ tr.topic-list-item-separator td.topic-list-data {
   max-width: none !important;
 }
 
-//CSS Topic list
+/*Start CSS Topic list like social*/
 .topic-list-header {
-  & .posts.num , & .bulk-select.topic-list-data{
+  & .posts.num ,& .default button,& .default span , & .bulk-select.topic-list-data{
     display: none !important;
   }
 }
 .navigation-container .hidden.category-breadcrumb{
   display: block !important;
 }
+
+/*End CSS Topic list like social*/
