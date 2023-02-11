@@ -219,8 +219,11 @@ tr.topic-list-item-separator td.topic-list-data {
 
 /*Start CSS Topic list like social*/
 .topic-list-header {
-  & .posts.num, & .bulk-select.topic-list-data{
+  & .posts.num, & .bulk-select.topic-list-data, & .default{
     display: none !important;
+  }
+  & .bulk-select-topics{
+    display: block !important;
   }
 }
 .navigation-container .category-breadcrumb{
