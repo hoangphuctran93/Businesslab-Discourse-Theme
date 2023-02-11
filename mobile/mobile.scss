@@ -232,11 +232,16 @@ tr.topic-list-item-separator td.topic-list-data {
     }
   }
 }
-.navigation-container .category-breadcrumb{
-  display: flex !important;
-  & {
-    & li .select-kit.combo-box.category-drop.is-expanded, & li .select-kit.combo-box.tag-drop.is-expanded {
-      border: 8px !important;
+.navigation-container {
+  & >.bulk-select.btn.no-text.btn-icon{
+    display: none !important;
+  }
+  & .category-breadcrumb{
+    display: flex !important;
+    & {
+      & li .select-kit.combo-box.category-drop.is-expanded, & li .select-kit.combo-box.tag-drop.is-expanded {
+        border: 8px !important;
+      }
     }
   }
 }
