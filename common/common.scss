@@ -353,8 +353,10 @@ blockquote p {
 
 .topic-list-header {
     display: contents;
-
     & tr {
+        & .badge-category-bg{
+            border-radius: 2px;
+        }
         background-color: unset !important;
         border: 0px;
         box-shadow: none;
