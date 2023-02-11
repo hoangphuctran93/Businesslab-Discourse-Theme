@@ -222,6 +222,15 @@ tr.topic-list-item-separator td.topic-list-data {
   & .posts.num, & .bulk-select.topic-list-data{
     display: none !important;
   }
+  & th.default.topic-list-data{
+    width: 100% !important;
+    max-width: 100% !important;
+    & .bulk-select-topics{
+      padding-left: Opx !important;
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
 }
 .navigation-container .category-breadcrumb{
   display: flex !important;
