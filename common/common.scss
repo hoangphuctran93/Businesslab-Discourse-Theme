@@ -136,7 +136,7 @@ strong {
             color: var(--businesslab-primary)
         }
         //CSS Add icon partner to footer
-        & .marketing-platform::before {
+        & .marketing-platform a::before {
             background-image: url(https://businesslab.vn/uploads/default/original/1X/3bf5e2f9e3cbde2b2692ecba9a267e039845c3f4.jpeg);
             background-repeat: no-repeat;
             display: inline-block;
