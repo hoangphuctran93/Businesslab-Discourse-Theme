@@ -354,9 +354,6 @@ blockquote p {
 .topic-list-header {
     display: contents;
     & tr {
-        & .badge-category-bg{
-            border-radius: 2px;
-        }
         background-color: unset !important;
         border: 0px;
         box-shadow: none;
@@ -414,6 +411,9 @@ blockquote p {
     display: contents;
 
     & tr {
+        & .badge-category-bg{
+            border-radius: 2px;
+        }
         width: 100%;
         display: flex;
         margin-bottom: 0.5em;
