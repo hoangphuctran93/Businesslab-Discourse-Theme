@@ -442,9 +442,6 @@ blockquote p {
     display: contents;
 
     & tr {
-        & .badge-category-bg{
-            border-radius: 2px;
-        }
         width: 100%;
         display: flex;
         margin-bottom: 0.5em;
@@ -495,8 +492,7 @@ tr.topic-list-item-separator {
 tr.topic-list-item-separator td.topic-list-data {
     width: 100% !important;
 }
-.suggested-topics-message {
-    & .badge-category-bg{
-        border-radius: 2px;
-    }
+
+.badge-category-bg{
+    border-radius: 2px;
 }
