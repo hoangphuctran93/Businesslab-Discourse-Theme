@@ -228,7 +228,10 @@ tr.topic-list-item-separator td.topic-list-data {
   }
 }
 .topic-list-header {
-  & .posts.num, & .bulk-select.topic-list-data{
+  & .posts.num{
+    display: none !important;
+  }
+  & .bulk-select.topic-list-data{
     display: none !important;
   }
 }
