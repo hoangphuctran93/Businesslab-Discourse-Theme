@@ -87,6 +87,11 @@ strong {
             padding: 20px 40px 20px 20px;
             align-items: center;
             border-radius: 10px;
+            & .names {
+                & span a, & .user-title{
+                    color: #00485a;
+                }
+            }
         }
         & .cooked{
             margin-bottom: 10px;
