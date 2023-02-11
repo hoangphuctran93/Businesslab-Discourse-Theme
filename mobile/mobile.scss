@@ -220,10 +220,10 @@ tr.topic-list-item-separator td.topic-list-data {
 /*Start CSS Topic list like social*/
 #main-outlet-wrapper #main-outlet{
   padding: 0px !important;
-  background: transparent !important
+  background: unset !important
 }
 .topic-list-header {
-  background: transparent !important;
+  background: unset !important;
   & .posts.num, & .bulk-select.topic-list-data{
     display: none !important;
   }
