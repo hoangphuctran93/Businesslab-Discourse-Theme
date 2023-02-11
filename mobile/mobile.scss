@@ -226,7 +226,7 @@ tr.topic-list-item-separator td.topic-list-data {
 .navigation-container .category-breadcrumb{
   display: flex !important;
   & {
-    & .select-kit.combo-box.category-drop.is-expanded, & .select-kit.combo-box.tag-drop.is-expanded {
+    & li .select-kit.combo-box.category-drop.is-expanded, & li .select-kit.combo-box.tag-drop.is-expanded {
       border: 8px !important;
     }
   }
