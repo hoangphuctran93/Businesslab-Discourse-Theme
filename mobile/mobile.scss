@@ -371,6 +371,9 @@ tr.topic-list-item-separator td.topic-list-data {
   & .topic-above-post-stream-outlet{
     background: #fff;
     border-radius: 8px 8px 0px 0px;
+    &.topic-title-voting{
+      padding: 0px 10px;
+    }
   }
   & #topic-title{
     background: #fff;
