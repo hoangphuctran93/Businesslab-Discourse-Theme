@@ -265,13 +265,15 @@ tr.topic-list-item-separator td.topic-list-data {
 .topic-list-body tr{
   border: unset !important;
   & .topic-list-data{
+    max-width: 100%;
     & .pull-left{
       display: none !important;
     }
     & .right{
+      margin-left: 0px;
       & .topic-list-thumbnail.no-thumbnail{
         width: 100% !important;
-        height: 360px !important;
+        height: 240px !important;
       }
     }
   }
