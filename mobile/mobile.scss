@@ -49,17 +49,16 @@ body.tab-bar-hidden {
   & .tab.active {
     color: var(--businesslab-primary);
     position: relative;
-  }
-
-  & .tab.active::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    height: 2px;
-    width: 100%;
-    background: var(--businesslab-primary);
-    border-radius: 0px 0px 2px 2px;
-    &:not(:first-child),&:not(:last-child){
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      height: 2px;
+      width: 100%;
+      background: var(--businesslab-primary);
+      border-radius: 0px 0px 2px 2px;
+    }
+    &:not(:first-child)::before,&:not(:last-child::before){
       width: calc(100% - 20px);
     }
   }
