@@ -284,7 +284,7 @@ tr.topic-list-item-separator td.topic-list-data {
   & .topic-list-data{
     max-width: 100%;
     border-left: 0px !important;
-    padding: 0px 5px 15px;
+    padding: 0px 0px 15px;
     border-radius: 8px 8px 0px 0px;
     & .pull-left{
       display: none !important;
@@ -299,8 +299,6 @@ tr.topic-list-item-separator td.topic-list-data {
         position: relative;
         width: 100% !important;
         padding-top: 62.5%;
-        min-width: calc(100% + 20px) !important;
-        margin-left: -10px;
         margin-right: 0px;
         order: 1;
         display: flex;
@@ -325,6 +323,7 @@ tr.topic-list-item-separator td.topic-list-data {
         order: 2;
         display: flex;
         flex-direction: column;
+        padding: 0px 5px;
         & .title {
           margin-top: 10px;
         }
@@ -341,10 +340,11 @@ tr.topic-list-item-separator td.topic-list-data {
         }
       }
       & .pull-right{
-        width: 10%;
+        width: 8%;
         order: 4;
         display: flex;
         justify-content: space-around;
+        padding-right: 5px;
         & .number{
           font-weight: normal;
           font-size: Var(--base-font-size-smallest);
@@ -358,10 +358,11 @@ tr.topic-list-item-separator td.topic-list-data {
         }
       }
       & .topic-item-stats.clearfix{
-        width: 90%;
+        width: 88%;
         order: 3;
         display: flex;
         margin-top: 0px !important;
+        padding-left: 5px;
         & .num.activity.last{
           margin-right: 10Px;
         }
