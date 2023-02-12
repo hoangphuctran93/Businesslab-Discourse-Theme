@@ -285,7 +285,7 @@ tr.topic-list-item-separator td.topic-list-data {
     max-width: 100%;
     border-left: 0px !important;
     padding: 0px 0px 15px;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 8px !important;
     & .pull-left{
       display: none !important;
     }
@@ -295,7 +295,7 @@ tr.topic-list-item-separator td.topic-list-data {
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-around;
-      border-radius: 8px 8px 0px 0px;
+      border-radius: 8px !important;
       & .topic-list-thumbnail{
         //https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
         position: relative;
@@ -304,20 +304,20 @@ tr.topic-list-item-separator td.topic-list-data {
         margin-right: 0px;
         order: 1;
         display: flex;
-        border-radius: 8px 8px 0px 0px;
+        border-radius: 8px 8px 0px 0px !important;
         & a{
           position: absolute;
           top: 0;
           left: 0;
           bottom: 0;
           right: 0;
-          border-radius: 8px 8px 0px 0px;
+          border-radius: 8px 8px 0px 0px !important;
           & img{
-            border-radius: 8px 8px 0px 0px;
+            border-radius: 8px 8px 0px 0px !important;
           }
         }
         & a::after{
-          border-radius: 8px 8px 0px 0px;
+          border-radius: 8px 8px 0px 0px !important;
         }
       }
       & .main-link{
