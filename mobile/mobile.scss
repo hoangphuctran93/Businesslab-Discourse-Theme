@@ -412,4 +412,11 @@ tr.topic-list-item-separator td.topic-list-data {
     }
   }
 }
+//CSS Category
+.category-boxes{
+  & .category-box {
+    background: #fff !important;
+    border: none !important;
+  } 
+}
 /*End CSS Topic list like social*/
