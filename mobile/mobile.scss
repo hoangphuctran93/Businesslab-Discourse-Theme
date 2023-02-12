@@ -296,8 +296,9 @@ tr.topic-list-item-separator td.topic-list-data {
       flex-direction: row;
       & .topic-list-thumbnail{
         //https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
+        position: relative;
         width: 100% !important;
-        aspect-ratio: 1/1;
+        padding-top: 62.5%;
         min-width: calc(100% + 20px) !important;
         margin-left: -10px;
         margin-right: 0px;
@@ -305,6 +306,11 @@ tr.topic-list-item-separator td.topic-list-data {
         display: flex;
         border-radius: 8px 8px 0px 0px;
         & a{
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
           border-radius: 8px 8px 0px 0px;
           & img{
             border-radius: 8px 8px 0px 0px;
