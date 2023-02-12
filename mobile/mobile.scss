@@ -297,7 +297,7 @@ tr.topic-list-item-separator td.topic-list-data {
       & .topic-list-thumbnail{
         position: relative;
         width: 100% !important;
-        padding-top: 100%;
+        padding-top: 62.5%;
         min-width: calc(100% + 20px) !important;
         margin-left: -10px;
         margin-right: 0px;
@@ -324,6 +324,9 @@ tr.topic-list-item-separator td.topic-list-data {
         order: 2;
         display: flex;
         flex-direction: column;
+        & .title {
+          margin-top: 10px;
+        }
         & .topic-excerpt{
           width: 100%;
           &::after{
