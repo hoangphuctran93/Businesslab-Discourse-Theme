@@ -44,6 +44,7 @@ body.tab-bar-hidden {
 
 .d-tab-bar {
   transition: all .1s ease-out;
+  border-radius: 15px 15px 0px 0px;
 
   & .tab.active {
     color: var(--businesslab-primary);
@@ -58,6 +59,9 @@ body.tab-bar-hidden {
     width: 100%;
     background: var(--businesslab-primary);
     border-radius: 0px 0px 2px 2px;
+    &:not(:first-child),&:not(:last-child){
+      width: calc(100% - 20px);
+    }
   }
 
   & .tab:nth-child(3) svg {
