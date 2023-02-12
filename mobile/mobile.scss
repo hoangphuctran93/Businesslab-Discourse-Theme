@@ -44,6 +44,7 @@ body.tab-bar-hidden {
 
 .d-tab-bar {
   transition: all .1s ease-out;
+  border-radius: 15px 15px 0px 0px;
 
   & .tab.active {
     color: var(--businesslab-primary);
@@ -66,6 +67,7 @@ body.tab-bar-hidden {
     background: var(--businesslab-primary);
     color: #fff;
     border-radius: 10px;
+    margin-top: -.7em;
   }
 
   & .tab:nth-child(3):hover svg {
