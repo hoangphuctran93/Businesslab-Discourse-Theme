@@ -294,6 +294,7 @@ tr.topic-list-item-separator td.topic-list-data {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
+      justify-content: space-around;
       & .topic-list-thumbnail{
         //https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
         position: relative;
@@ -323,7 +324,7 @@ tr.topic-list-item-separator td.topic-list-data {
         order: 2;
         display: flex;
         flex-direction: column;
-        padding: 0px 5px;
+        padding: 0px 10px;
         & .title {
           margin-top: 10px;
         }
@@ -344,7 +345,7 @@ tr.topic-list-item-separator td.topic-list-data {
         order: 4;
         display: flex;
         justify-content: space-around;
-        padding-right: 5px;
+        padding-right: 10px;
         & .number{
           font-weight: normal;
           font-size: Var(--base-font-size-smallest);
@@ -358,11 +359,11 @@ tr.topic-list-item-separator td.topic-list-data {
         }
       }
       & .topic-item-stats.clearfix{
-        width: 88%;
+        width: 82%;
         order: 3;
         display: flex;
         margin-top: 0px !important;
-        padding-left: 5px;
+        padding-left: 10px;
         & .num.activity.last{
           margin-right: 10Px;
         }
