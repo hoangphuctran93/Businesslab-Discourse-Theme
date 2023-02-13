@@ -328,10 +328,17 @@ tr.topic-list-item-separator td.topic-list-data {
         width: 100%;
         order: 2;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
         padding: 0px 10px;
+        & .vote-count-before-title{
+          position: unset;
+        }
         & .title {
           margin-top: 10px;
+          width: calc(100% - 52px) !important;
         }
         & .topic-excerpt{
           width: 100%;
