@@ -111,7 +111,7 @@ strong {
 }
 //CSS Theme-component fkb-pro-alternative-voting-category-style
 .vote-count-before-title{
-    border-radius: 5px;
+    border-radius: 5px !important;
     & .topic-list-vote-button{
         & svg {
             color: var(--businesslab-primary) !important;
