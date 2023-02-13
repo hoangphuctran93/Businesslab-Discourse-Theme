@@ -109,6 +109,13 @@ strong {
         border-bottom: 1px solid #d9e1ec;
     }
 }
+//CSS Theme-component fkb-pro-alternative-voting-category-style
+.vote-count-before-title{
+    &.can-vote{
+        color: var(--businesslab-secondary);
+    }
+    color: var(--businesslab-primary)
+}
 /*CSS Custom Footer*/
 .custom-footer {
     /*background-color: transparent !important;
