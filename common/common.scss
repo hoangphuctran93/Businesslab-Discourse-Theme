@@ -112,10 +112,12 @@ strong {
 //CSS Theme-component fkb-pro-alternative-voting-category-style
 .vote-count-before-title{
     & .topic-list-vote-button{
-        &.can-vote{
-            color: var(--businesslab-secondary);
+        &.can-vote svg{
+            color: var(--primary-300);
         }
-        color: var(--businesslab-primary)
+        & svg {
+            color: var(--businesslab-primary);
+        }
     } 
 }
 /*CSS Custom Footer*/
