@@ -275,6 +275,7 @@ tr.topic-list-item-separator td.topic-list-data {
 .topic-list-body tr{
   border: unset !important;
   border-radius: 8px !important;
+  flex-direction: column;
   &:not(:first-child){
     margin: 16px 0px !important;
   }
@@ -319,6 +320,9 @@ tr.topic-list-item-separator td.topic-list-data {
         &::after{
           border-radius: 8px 8px 0px 0px !important;
         }
+      }
+      & .topic-list-thumbnail.no-thumbnail{
+
       }
       & .main-link{
         width: 100%;
