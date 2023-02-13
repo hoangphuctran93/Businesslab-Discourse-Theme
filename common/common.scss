@@ -111,10 +111,12 @@ strong {
 }
 //CSS Theme-component fkb-pro-alternative-voting-category-style
 .vote-count-before-title{
-    &.can-vote{
-        color: var(--businesslab-secondary);
-    }
-    color: var(--businesslab-primary)
+    & .topic-list-vote-button{
+        &.can-vote{
+            color: var(--businesslab-secondary);
+        }
+        color: var(--businesslab-primary)
+    } 
 }
 /*CSS Custom Footer*/
 .custom-footer {
