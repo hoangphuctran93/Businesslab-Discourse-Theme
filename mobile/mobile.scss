@@ -296,6 +296,7 @@ tr.topic-list-item-separator td.topic-list-data {
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-around;
+      align-items: flex-start;
       border-radius: 8px !important;
       & .topic-list-thumbnail{
         //https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
