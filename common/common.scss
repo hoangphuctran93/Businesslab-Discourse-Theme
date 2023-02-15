@@ -499,19 +499,16 @@ blockquote p {
 tr.topic-list-item-separator {
     padding: 10px 0;
     box-shadow: none;
-    background-color: transparent;
+    background-color: transparent !important;
     & .topic-list-data{
+        width: 100% !important;
         & span {
-            background-color: var(--secondary);
-            color: var(--danger-medium);
-            border: 1px solid var(--danger-medium);
+            background-color: var(--secondary) !important;
+            color: var(--danger-medium) !important;
+            border: 1px solid var(--danger-medium) !important;
             border-radius: 10px;
         }
     }
-}
-
-tr.topic-list-item-separator td.topic-list-data {
-    width: 100% !important;
 }
 
 .badge-category-bg{
