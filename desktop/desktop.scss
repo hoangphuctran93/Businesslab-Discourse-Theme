@@ -30,6 +30,9 @@
             width: 100% !important;
             padding: 12px 5px !important;
             line-height: var(--line-height-large) !important;
+            & .topic-list-thumbnail{
+                & .link-top-line {}
+            }
         }
         & td.topic-list-data{
             padding: 0px !important;
