@@ -499,7 +499,15 @@ blockquote p {
 tr.topic-list-item-separator {
     padding: 10px 0;
     box-shadow: none;
-    background-color: #F9FCFF;
+    background-color: transparent;
+    & .topic-list-data{
+        & span {
+            background-color: var(--secondary);
+            color: var(--danger-medium);
+            border: 1px solid var(--danger-medium);
+            border-radius: 10px;
+        }
+    }
 }
 
 tr.topic-list-item-separator td.topic-list-data {
