@@ -1,6 +1,6 @@
 # Businesslab-Discourse-Theme
 
-Giao diện được thiết kế và custom từ [Discourse Air Theme](https://meta.discourse.org/t/discourse-air-theme/197703) và hiện đang được áp dung tại [Businesslab.vn](https://businesslab.vn/)
+Giao diện được thiết kế và custom từ [Discourse Air Theme](https://meta.discourse.org/t/discourse-air-theme/197703) và [FKB Pro theme](https://meta.discourse.org/t/fkb-pro-social-theme/234323) và hiện đang được áp dung tại du án[Businesslab.vn](https://businesslab.vn/)
 
 ## Mục tiêu thiết kế:
 
