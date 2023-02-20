@@ -34,28 +34,28 @@
       </div>
     </div>
     <div class="link-middle-line" id="{{#if topic.hasExcerpt}}link-middle-line-excerpt{{/if}}">
-  <div class="topic-list-content">
-    {{~raw "topic-status" topic=topic}}
-    {{~topic-link topic class="raw-link raw-topic-link"}}
-    {{~#if topic.featured_link}}
-      {{~topic-featured-link topic}}
-    {{~/if}}
-    {{~#if showTopicPostBadges}}
-      {{~raw "topic-post-badges" unreadPosts=topic.unread_posts unseen=topic.unseen url=topic.lastUnreadUrl newDotText=newDotText}}
-    {{~/if}}
-    {{#if topic.hasExcerpt}}
-      {{~#if topic.hasExcerpt}}...{{/if}}
-      {{#let content=(component "list/topic-excerpt" topic=topic)}}{{/let}}
-      {{content}}
-    {{/if}}
-    {{discourse-tags topic mode="list" tagsForUser=tagsForUser}}
-    {{raw-plugin-outlet name="topic-list-after-title"}}
-  </div>
-  {{#if topic.image_url}}
-    <a href="{{topic.lastUnreadUrl}}">
-      <div class="topic-image" style="background: url({{topic.image_url}}); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
-    </a>
-  {{/if}}
+      <div class="topic-title">
+        {{~raw "topic-status" topic=topic}}
+        {{~topic-link topic class="raw-link raw-topic-link"}}
+        {{~#if topic.featured_link}}
+          {{~topic-featured-link topic}}
+        {{~/if}}
+        {{~#if showTopicPostBadges}}
+          {{~raw "topic-post-badges" unreadPosts=topic.unread_posts unseen=topic.unseen url=topic.lastUnreadUrl newDotText=newDotText}}
+        {{~/if}}
+      </div>
+      {{~raw-plugin-outlet name="topic-list-after-title"}}
+      {{#if topic.hasExcerpt}}
+        <div class="topic-excerpt">
+          {{raw "list/topic-excerpt" topic=topic}}
+        </div>
+      {{/if}}
+      {{#if topic.image_url}}
+        <a href="{{topic.lastUnreadUrl}}">
+          <div class="topic-image" style="background: url({{topic.image_url}}); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+        </a>
+      {{/if}}
+      {{discourse-tags topic mode="list" tagsForUser=tagsForUser}}
     </div>
   </span>
   <div class="link-bottom-line">
