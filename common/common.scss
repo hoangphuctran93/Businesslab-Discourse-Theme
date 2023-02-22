@@ -185,6 +185,17 @@ strong {
             height: 18px;
             border-radius: 5px;
         }
+        & .mba-đường-phố a::before{
+            background-image: url(https://businesslab.vn/uploads/default/original/1X/32e5cb75693639de539ba38e95edd4e4948ce908.png);
+            background-repeat: no-repeat;
+            display: inline-block;
+            content: "";
+            /*change the settings below based on the size of your logo*/
+            background-size: 18px 18px;
+            width: 18px;
+            height: 18px;
+            border-radius: 5px;
+        }
     }
 
     & .third-box {
