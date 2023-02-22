@@ -50,11 +50,15 @@
           {{raw "list/topic-excerpt" topic=topic}}
         </div>
       {{/if}}
+    </div>
+    <div class="topic-image-middle-line">
       {{#if topic.image_url}}
         <a href="{{topic.lastUnreadUrl}}">
           <div class="topic-image" style="background: url({{topic.image_url}}); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
         </a>
       {{/if}}
+    </div>
+    <div class="topic-tag-bottom-line">
       {{discourse-tags topic mode="list" tagsForUser=tagsForUser}}
     </div>
   </span>
