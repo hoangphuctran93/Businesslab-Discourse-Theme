@@ -100,7 +100,7 @@
         </div>
       {{/if}}
     </div>
-    <div class="topic-image-middle-line">
+    <div class="topic-image-middle-line" style="display:none">
         <a href="{{topic.lastUnreadUrl}}">
           <div class="topic-image" style="background: url({{topic.image_url}}); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
         </a>
