@@ -21,8 +21,9 @@
     border: unset;
     border-radius: unset;
     box-shadow: unset;
-    padding-top: 24px !important;
-    padding-bottom: 24px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    border-radius: 5px !important;
         &:first-child{
             padding-top: 0px !important;
         }
