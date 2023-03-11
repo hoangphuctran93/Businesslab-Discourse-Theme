@@ -115,7 +115,7 @@ strong {
     border-radius: 5px !important;
     & .topic-list-vote-button{
         & svg {
-            color: var(--businesslab-primary) !important;
+            color: var(--businesslab-primary);
         }
         &.can-vote svg{
             color: var(--primary-300);
