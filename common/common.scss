@@ -510,13 +510,18 @@ blockquote p {
 tr.topic-list-item-separator {
     padding: 10px 0;
     box-shadow: none;
-    background-color: #F9FCFF;
+    background-color: transparent;
+    & .topic-list-data{
+        span{
+            border-radius: 5px;
+        }
+    }
 }
 
 tr.topic-list-item-separator td.topic-list-data {
     width: 100% !important;
 }
 
-.badge-category-bg{
+.badge-category-bg, .badge-category-parent-bg{
     border-radius: 2px !important;
 }
