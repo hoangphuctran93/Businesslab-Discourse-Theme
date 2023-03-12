@@ -511,9 +511,12 @@ tr.topic-list-item-separator {
     padding: 10px 0;
     box-shadow: none;
     background-color: transparent;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
     & .topic-list-data{
         span{
-            border-radius: 5px;
+            border-radius: 8px;
+            border: 1px solid var(--danger-medium);
         }
     }
 }
