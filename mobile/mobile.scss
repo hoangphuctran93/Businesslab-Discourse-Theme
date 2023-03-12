@@ -460,10 +460,9 @@ tr.topic-list-item-separator td.topic-list-data {
 /*End CSS Topic list like social*/
 /*Fix CSS Admin */
 .admin-main-nav{
-  width: calc(100% - 20px);
+  width: 100%;
   margin-left: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0px;
   &::before{
     width: 30px;
   }
