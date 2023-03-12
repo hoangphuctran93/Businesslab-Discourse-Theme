@@ -458,3 +458,12 @@ tr.topic-list-item-separator td.topic-list-data {
   } 
 }
 /*End CSS Topic list like social*/
+/*Fix CSS Admin */
+.boxed.admin-content{
+  padding-left: 10px;
+  padding-right: 10px;
+  & .chart-canvas{
+    width: 100% !important;
+  }
+}
+/*End Fix CSS Admin */
