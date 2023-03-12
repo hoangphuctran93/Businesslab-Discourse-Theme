@@ -394,6 +394,28 @@ tr.topic-list-item-separator td.topic-list-data {
     }
   }
 }
+
+tr.topic-list-item-separator {
+  padding: 10px 0;
+  box-shadow: none;
+  background-color: transparent;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  & .topic-list-data{
+      span{
+          border-radius: 8px;
+          border: 1px solid var(--danger-medium);
+      }
+  }
+}
+
+tr.topic-list-item-separator td.topic-list-data {
+  width: 100% !important;
+}
+
+.badge-category-bg, .badge-category-parent-bg{
+  border-radius: 2px !important;
+}
 // CSS Topic
 .regular{
   & .topic-above-post-stream-outlet{
