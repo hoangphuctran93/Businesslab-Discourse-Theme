@@ -464,6 +464,9 @@ tr.topic-list-item-separator td.topic-list-data {
   margin-left: 0px;
   padding-left: 10px;
   padding-right: 10px;
+  &::before{
+    width: 30px;
+  }
   & .nav.nav-pills{
     background: white;
     padding-top: 10px;
