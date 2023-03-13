@@ -343,6 +343,7 @@ tr.topic-list-item-separator td.topic-list-data {
         }
         & .topic-excerpt{
           width: 100%;
+          margin-bottom: .5rem;
           &::after{
             content: "";
             width: 100%;
@@ -414,7 +415,10 @@ tr.topic-list-item-separator td.topic-list-data {
 }
 
 .badge-category-bg, .badge-category-parent-bg{
-  border-radius: 2px !important;
+  border-radius: 0 0 10px 10px !important;
+}
+.badge-category.clear-badge{
+  padding: 0px .5rem;
 }
 // CSS Topic
 .regular{
@@ -485,6 +489,11 @@ tr.topic-list-item-separator td.topic-list-data {
   background: white;
   padding: .5rem 10px .5rem 10px;
   margin-top: 1.5rem;
+  border-radius: 10px;
+}
+.discourse-post-event-upcoming-events{
+  background: white;
+  padding: .5rem 10px .5rem 10px;
   border-radius: 10px;
 }
 /*End CSS Calendar*/
