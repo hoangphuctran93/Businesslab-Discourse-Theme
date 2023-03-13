@@ -414,11 +414,13 @@ tr.topic-list-item-separator td.topic-list-data {
   width: 100% !important;
 }
 
-.badge-category-bg, .badge-category-parent-bg{
-  border-radius: 0 0 10px 10px !important;
-}
-.badge-category.clear-badge{
-  padding: 0px .5rem;
+.topic-list-body {
+  & .badge-category-bg, .badge-category-parent-bg{
+    border-radius: 0 0 10px 10px !important;
+  }
+  & .badge-category.clear-badge{
+    padding: 0px .5rem;
+  }
 }
 // CSS Topic
 .regular{
