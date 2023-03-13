@@ -413,7 +413,55 @@ tr.topic-list-item-separator {
 tr.topic-list-item-separator td.topic-list-data {
   width: 100% !important;
 }
+/*CSS Custom Business Discourse Theme Follow FKB Pro Theme */
+.topic-image-middle-line.has-image-middle .topic-image {
+  width: 100%;
+  aspect-ratio: 16/10;
+}
 
+.topic-list {
+  & .topic-list-body {
+    & .link-top-line {
+      & .byline {
+      }
+      & .link-middle-line {
+        padding: 0px 10px !important;
+        & .topic-excerpt {
+          width: 100% !important;
+        }
+      }
+      & .topic-image-middle-line {
+      }
+      & .topic-tag-bottom-line {
+        padding: 0px 10px !important;
+      }
+    }
+  }
+}
+.topic-list {
+  tr .byline .badge-wrapper.box {
+    margin: 0 0.5em -1em auto;
+  }
+}
+//CSS topic tag on mobile
+.topic-tag-bottom-line .discourse-tags {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: scroll;
+  display: block;
+  width: calc(100vw - 40px);
+  scrollbar-width: none !important;
+  & a {
+    display: inline-block;
+    padding-top: 5px;
+    line-height: 1.6em;
+  }
+  &::-webkit-scrollbar {
+    display: none !important;
+  }
+}
+
+/*End CSS Custom Business Discourse Theme Follow FKB Pro Theme */
 .topic-list-body {
   & .badge-category-bg, .badge-category-parent-bg{
     border-radius: 0 0 10px 10px !important;

@@ -2,6 +2,30 @@
 .topic-list{
     &.sticky-header{
         & .topic-list-body{
+            /*CSS Custom Business Discourse Theme Follow FKB Pro Theme */
+            .topic-image {
+                height: 80px;
+                width: 80px;
+                border-radius: 10px;
+              }
+              .link-top-line {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row-reverse;
+                & .byline {
+                  width: 100%;
+                }
+                & .link-middle-line.has-image-middle {
+                  width: calc(100% - 90px);
+                }
+                & .topic-image-middle-line {
+                  width: 90px;
+                }
+                & .topic-tag-bottom-line {
+                  width: calc(100% - 90px);
+                }
+              }              
+            /*End CSS Custom Business Discourse Theme Follow FKB Pro Theme */
             & td.main-link{
                 width: 90% !important;
             }

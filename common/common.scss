@@ -466,6 +466,100 @@ blockquote p {
     display: contents;
 
     & tr {
+        /*CSS Custom Business Discourse Theme Follow FKB Pro Theme */
+        & .link-top-line{
+            .byline {
+                display: flex;
+                padding: 0 1em;
+                flex-direction: column;
+                .topic-list-avatar {
+                  margin: 0 8px 0 0;
+                }
+                .author {
+                  padding: 1em 0 0.5em 0;
+                  margin-right: auto;
+                  a {
+                    display: flex;
+                    align-items: center;
+                    .name-and-date {
+                      display: flex;
+                      flex-direction: column;
+                      span:empty + span:not(:empty) {
+                        color: var(--primary) !important;
+                        font-weight: bold !important;
+                        font-size: var(--font-down-1) !important;
+                      }
+                      .full-name-tlist {
+                        font-size: var(--font-down-1);
+                        font-weight: bold;
+                        color: var(--primary);
+                      }
+                      .username {
+                        font-size: var(--font-down-2);
+                        font-weight: normal;
+                        color: var(--primary-high-or-secondary-low);
+                      }
+                      .list-date {
+                        font-size: var(--font-down-3);
+                        color: var(--primary-medium);
+                      }
+                    }
+                  }
+                }
+                .badge-wrapper {
+                  font-size: var(--font-down-2);
+                  font-weight: normal;
+                  &.box {
+                    margin: -0.3em 0.5em -1em auto;
+                    span {
+                      &.badge-category-bg,
+                      &.badge-category-parent-bg {
+                        border-radius: 0 0 0.75em 0.75em;
+                      }
+                    }
+                  }
+                  .d-icon {
+                    color: currentColor;
+                  }
+                }
+              }
+              .topic-list {
+                tr:first-child .byline .badge-wrapper.box {
+                  margin: 0 0.5em -1em auto;
+                }
+              }
+              .link-bottom-line {
+                padding: 0.6em 1em;
+                a {
+                  font-size: var(--font-down-1);
+                  display: flex;
+                  align-items: center;
+                  color: var(--primary-medium);
+                  &.likes .d-icon {
+                    color: var(--love);
+                  }
+                  .d-icon {
+                    margin-top: -1px;
+                    margin-left: 0.25em;
+                  }
+                  &:empty {
+                    display: none;
+                  }
+                }
+                .likes-tlist {
+                  margin-right: 0.667em;
+                }
+                .latest-poster-tlist {
+                  margin-left: auto;
+                  margin-right: 0.667em;
+                }
+                .latest-activity-tlist {
+                  margin-right: 0.667em;
+                }
+              }
+              
+        }
+        /*End CSS Custom Business Discourse Theme Follow FKB Pro Theme */
         width: 100%;
         display: flex;
         margin-bottom: 0.5em;
