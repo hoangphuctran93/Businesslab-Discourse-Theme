@@ -463,7 +463,7 @@ tr.topic-list-item-separator td.topic-list-data {
 }
 /*End CSS Topic list like social*/
 /*Fix CSS Admin */
-.admin-main-nav{
+.mobile-view .full-width .admin-main-nav{
   width: 100%;
   margin-left: 0px;
   padding-left: 0px;
@@ -472,6 +472,7 @@ tr.topic-list-item-separator td.topic-list-data {
     background: white;
     padding-top: 10px;
     width: 100%;
+    margin-left: 0px;
   }
 }
 
