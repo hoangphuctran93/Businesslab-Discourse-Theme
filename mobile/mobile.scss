@@ -343,7 +343,7 @@ tr.topic-list-item-separator td.topic-list-data {
         }
         & .topic-excerpt{
           width: 100%;
-          margin-bottom: .5rem;
+          margin-bottom: .5rem !important;
           &::after{
             content: "";
             width: 100%;
