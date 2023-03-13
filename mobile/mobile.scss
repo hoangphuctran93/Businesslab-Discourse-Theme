@@ -343,7 +343,6 @@ tr.topic-list-item-separator td.topic-list-data {
         }
         & .topic-excerpt{
           width: 100%;
-          margin-bottom: .5rem !important;
           &::after{
             content: "";
             width: 100%;
@@ -460,7 +459,9 @@ tr.topic-list-item-separator td.topic-list-data {
     display: none !important;
   }
 }
-
+.topic-excerpt{
+  margin-bottom: .5rem;
+}
 /*End CSS Custom Business Discourse Theme Follow FKB Pro Theme */
 .topic-list-body {
   & .badge-category-bg, .badge-category-parent-bg{
