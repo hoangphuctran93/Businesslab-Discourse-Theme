@@ -467,7 +467,6 @@ blockquote p {
 
     & tr {
         /*CSS Custom Business Discourse Theme Follow FKB Pro Theme */
-        & .link-top-line{
             .byline {
                 display: flex;
                 padding: 0 1em;
@@ -528,7 +527,7 @@ blockquote p {
                   margin: 0 0.5em -1em auto;
                 }
               }
-              .link-bottom-line {
+            .link-bottom-line {
                 padding: 0.6em 1em;
                 a {
                   font-size: var(--font-down-1);
@@ -557,8 +556,6 @@ blockquote p {
                   margin-right: 0.667em;
                 }
               }
-              
-        }
         /*End CSS Custom Business Discourse Theme Follow FKB Pro Theme */
         width: 100%;
         display: flex;
