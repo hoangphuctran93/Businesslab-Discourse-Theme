@@ -80,15 +80,10 @@
                 margin-left: 70px;
             }
         }
-        /*
-        border-top: 1px solid #d9e1ec;
-        &.category-products{
-            border-top: unset;
-            border-bottom: unset;
-        }
-        &:last-child{
+        &.category-collections, .category-events{
+            border-top: 1px solid #d9e1ec;
             border-bottom: 1px solid #d9e1ec;
-        }*/
+        }
     }
 }
 
