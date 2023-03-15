@@ -80,9 +80,11 @@
                 margin-left: 70px;
             }
         }
-        &.category-collections{
-            border-top: 1px solid #d9e1ec;
-            border-bottom: 1px solid #d9e1ec;
+        border-top: 1px solid #d9e1ec;
+        border-bottom: 1px solid #d9e1ec;
+        &.category-products{
+            border-top: unset;
+            border-bottom: unset;
         }
     }
 }
