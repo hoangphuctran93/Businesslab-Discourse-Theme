@@ -122,6 +122,21 @@ strong {
         }
     } 
 }
+/*CSS Category title header*/
+.category-title-header{
+    //Source: https://stackoverflow.com/questions/11552380/how-to-automatically-crop-and-center-an-image
+    & .category-logo.aspect-image{
+        margin: 0 .5em .25em 0;
+        & img{
+            object-fit: none; /* Do not scale the image */
+            object-position: center; /* Center the image within the element */
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+        }
+    }
+}
+/*End CSS Category title header*/
 /*CSS Custom Footer*/
 .custom-footer {
     /*background-color: transparent !important;
