@@ -524,13 +524,13 @@ tr.topic-list-item-separator td.topic-list-data {
       padding: .75rem 0px 1rem 0px !important;
       & .category-logo.aspect-image{
         margin: 0 .5em .25em 0;
-        max-width: 100px;
+        max-width: 40px;
         float: left;
         & img{
             object-fit: cover; /* Do not scale the image https://developer.mozilla.org/en-US/docs/Web/CSS/object-position*/
             object-position: center; /* Center the image within the element https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
-            height: 100px;
-            width: 100px;
+            height: 40px;
+            width: 40px;
             border-radius: 10px;
         }
       }
