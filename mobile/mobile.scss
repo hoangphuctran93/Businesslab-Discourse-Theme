@@ -512,6 +512,38 @@ tr.topic-list-item-separator td.topic-list-data {
     box-shadow: 0px 0px 8px rgb(0 0 0 / 5%);
   } 
 }
+/*CSS Category title header*/
+.category-header-widget{
+  & .category-title-header{
+    //Source: https://stackoverflow.com/questions/11552380/how-to-automatically-crop-and-center-an-image
+    background: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    & .category-title-contents {
+      padding: 1rem 0 .5rem 0;
+      & .category-logo.aspect-image{
+        margin: 0 .5em .25em 0;
+        max-width: 100px;
+        float: left;
+        & img{
+            object-fit: cover; /* Do not scale the image https://developer.mozilla.org/en-US/docs/Web/CSS/object-position*/
+            object-position: center; /* Center the image within the element https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+        }
+      }
+      & .category-title-name{
+        text-align: Left;
+      }
+      & .category-title-description{
+        text-align: left;
+      }
+    }
+  }
+}
+/*End CSS Category title header*/
 /*End CSS Topic list like social*/
 /*Fix CSS Admin */
 .mobile-view .full-width .admin-main-nav{
