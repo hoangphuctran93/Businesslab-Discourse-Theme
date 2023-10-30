@@ -1,16 +1,16 @@
 # Businesslab-Discourse-Theme
 
-Giao diện được thiết kế và custom từ [Discourse Air Theme](https://meta.discourse.org/t/discourse-air-theme/197703) và [FKB Pro theme](https://meta.discourse.org/t/fkb-pro-social-theme/234323) và hiện đang được áp dung tại du án[Businesslab.vn](https://businesslab.vn/)
+Giao diện được thiết kế và custom từ [Discourse Air Theme](https://meta.discourse.org/t/discourse-air-theme/197703) và [FKB Pro theme](https://meta.discourse.org/t/fkb-pro-social-theme/234323) và hiện đang được áp dung tại dự án[Businesslab.vn](https://businesslab.vn/)
 
 ## Mục tiêu thiết kế:
 
-- Giúp người dùng dễ dàng truy cập các nhóm danh mục cùng
-- Giao diện được thiết kế tối ưu cho thiết bị điện thoại => Mang lại trải nghiệm tương tự như cách người dùng đang tương tác với các ứng dụng điện thoại khác
-- Tiết giảm các chi tiết thừa, gây xao nhãng quá trình học tập và tương tác trên diễn đàn
+- Giúp người dùng dễ dàng truy cập các nhóm danh mục
+- Giao diện được thiết kế tối ưu cho thiết bị điện thoại => Mang lại trải nghiệm tương tự như cách người dùng đang tương tác với các ứng dụng mạng xã hội khác
+- Tiết giảm các chi tiết thừa, gây xao nhãng quá trình đọc nội dung và thảo luận trên diễn đàn
 - Ngôn ngữ thiết kế:
   - Hiện đại, mềm mại, tối giản
   - Sử dụng tone màu sáng (dự kiến sẽ phát triển thêm tuỳ chọn Dark-mode và Reader-mode)
-  - Một số nguồn tham khảo:
+  - Một số website truyền cảm hứng:
     - Github
     - Qiita
     - Asana
@@ -24,7 +24,6 @@ Giao diện được thiết kế và custom từ [Discourse Air Theme](https://
     - Tính năng forum trên Discord
     - Feedly
     - MEDIUM
-    - 
     - Ứng dụng điện thoại WIT Daily
 
 ## Theme-component hiện đang sử dụng
@@ -43,7 +42,9 @@ Giao diện được thiết kế và custom từ [Discourse Air Theme](https://
 ---
 
 **Thông tin thêm:**
-
+- [Hướng dẫn cài đặt mã nguồn Discourse][def9]
+- [Hướng dẫn cài đặt thêm Plugin trên Discourse][def7]
+- [Hướng dẫn cài đặt theme và theme component trên Discourse][def8]
 - [Hướng dẫn sử dụng Discourse Theme][def5]
 - [HƯớng dẫn phát triển Discourse Theme][def6]
 
@@ -53,3 +54,6 @@ Giao diện được thiết kế và custom từ [Discourse Air Theme](https://
 [def4]: https://meta.discourse.org/t/category-list-with-banners/201280
 [def5]: https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966
 [def6]: https://meta.discourse.org/t/beginners-guide-to-developing-discourse-themes/93648
+[def7]: https://meta.discourse.org/t/install-plugins-in-discourse/19157
+[def8]: https://meta.discourse.org/t/install-a-theme-or-theme-component/63682
+[def9]: https://github.com/discourse/discourse/blob/main/docs/INSTALL-cloud.md
