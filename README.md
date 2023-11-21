@@ -44,6 +44,7 @@ Giao diện được thiết kế và custom từ [Discourse Air Theme](https://
 - [Discourse Clickable Topic](https://meta.discourse.org/t/clickable-topic/183339)
 - [Discourse Composer Footnote Button](https://meta.discourse.org/t/composer-footnote-button/243487)
 - [Discourse easy footer](https://meta.discourse.org/t/easy-responsive-footer/95818)
+
 **Tính năng mở rộng**
 - [Add to homescreen](https://github.com/discourse/discourse-apple-add-to-homescreen.git): Hiển thị 1 popup hướng dẫn người dùng bookmark trang website ra màn hình chính^[Áp dụng trên thiết bị chạy hệ điều hành IOS]
 
