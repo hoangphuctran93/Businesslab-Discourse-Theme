@@ -344,8 +344,8 @@ td.main-link.clearfix.topic-list-data a.topic-excerpt {
 .topic-list tbody tr:hover {
     cursor: pointer;
     border-radius: 5px;
-    background-color: var(--businesslab-bg);
-    background-image: linear-gradient(12deg, #fff 50%, hsla(0, 0%, 100%, 0));
+    background-color: var(--businesslab-bg) !important;
+    background-image: linear-gradient(12deg, #fff 50%, hsla(0, 0%, 100%, 0)) !important;
     transition: background-color .3s ease-in;
 }
 
