@@ -1,38 +1,3 @@
-custom_sidebar_enabled:
-  type: bool
-  default: false
-  description: "Custom sidebar content for visitor."
-custom_sidebar_image:
-  type: upload
-  default: ""
-  description: "Upload an image to display on the sidebar for visitor."
-custom_sidebar_description:
-  type: string
-  textarea: true
-  default: |
-            <strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  description: "Custom sidebar description for visitors. (HTML allowed)"
-fkb_panel_show_solutions:
-  type: bool
-  default: false
-  description: "Enable if you use Discourse Solved plugin."  
-fkb_panel_show_badges:
-  type: bool
-  default: true
-border_radius_avatar: 
-  type: enum
-  default: 50%
-  choices: 
-    - 0%
-    - 10%
-    - 20%
-    - 30%
-    - 40%
-    - 50%
-  description: "Avatar shape."
 border_radius_em: 
   default: "1em"
   description: "Highly rounded corners. We use it on topic list items, posts and modals."
