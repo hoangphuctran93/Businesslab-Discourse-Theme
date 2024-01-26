@@ -75,6 +75,10 @@ strong {
     }
 }
 
+//CSS Navigation
+.navigation-container{
+    margin-bottom: 1.5rem;
+}
 //CSS hide login google one tap
 #google_one_tap {
     display: none;
@@ -118,10 +122,25 @@ strong {
             color: var(--businesslab-primary) !important;
         }
         &.can-vote svg{
-            color: var(--primary-300);
+            color: var(--primary-300) !important;
         }
     } 
 }
+/*CSS Category title header*/
+.category-title-header{
+    //Source: https://stackoverflow.com/questions/11552380/how-to-automatically-crop-and-center-an-image
+    & .category-logo.aspect-image{
+        margin: 0 .5em .25em 0;
+        & img{
+            object-fit: cover; /* Do not scale the image https://developer.mozilla.org/en-US/docs/Web/CSS/object-position*/
+            object-position: center; /* Center the image within the element https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+        }
+    }
+}
+/*End CSS Category title header*/
 /*CSS Custom Footer*/
 .custom-footer {
     /*background-color: transparent !important;
@@ -325,8 +344,8 @@ td.main-link.clearfix.topic-list-data a.topic-excerpt {
 .topic-list tbody tr:hover {
     cursor: pointer;
     border-radius: 5px;
-    background-color: var(--businesslab-bg);
-    background-image: linear-gradient(12deg, #fff 50%, hsla(0, 0%, 100%, 0));
+    background-color: var(--businesslab-bg) !important;
+    background-image: linear-gradient(12deg, #fff 50%, hsla(0, 0%, 100%, 0)) !important;
     transition: background-color .3s ease-in;
 }
 
@@ -466,6 +485,97 @@ blockquote p {
     display: contents;
 
     & tr {
+        /*CSS Custom Business Discourse Theme Follow FKB Pro Theme */
+            .byline {
+                display: flex;
+                padding: 0 1em;
+                flex-direction: column;
+                .topic-list-avatar {
+                  margin: 0 8px 0 0;
+                }
+                .author {
+                  padding: 1em 0 0.5em 0;
+                  margin-right: auto;
+                  a {
+                    display: flex;
+                    align-items: center;
+                    .name-and-date {
+                      display: flex;
+                      flex-direction: column;
+                      span:empty + span:not(:empty) {
+                        color: var(--primary) !important;
+                        font-weight: bold !important;
+                        font-size: var(--font-down-1) !important;
+                      }
+                      .full-name-tlist {
+                        font-size: var(--font-down-1);
+                        font-weight: bold;
+                        color: var(--primary);
+                      }
+                      .username {
+                        font-size: var(--font-down-2);
+                        font-weight: normal;
+                        color: var(--primary-high-or-secondary-low);
+                      }
+                      .list-date {
+                        font-size: var(--font-down-3);
+                        color: var(--primary-medium);
+                      }
+                    }
+                  }
+                }
+                .badge-wrapper {
+                  font-size: var(--font-down-2);
+                  font-weight: normal;
+                  &.box {
+                    margin: -0.3em 0.5em -1em auto;
+                    span {
+                      &.badge-category-bg,
+                      &.badge-category-parent-bg {
+                        border-radius: 0 0 0.75em 0.75em;
+                      }
+                    }
+                  }
+                  .d-icon {
+                    color: currentColor;
+                  }
+                }
+              }
+              .topic-list {
+                tr:first-child .byline .badge-wrapper.box {
+                  margin: 0 0.5em -1em auto;
+                }
+              }
+            .link-bottom-line {
+                padding: 0.6em 1em;
+                a {
+                  font-size: var(--font-down-1);
+                  display: flex;
+                  align-items: center;
+                  color: var(--primary-medium);
+                  &.likes .d-icon {
+                    color: var(--love);
+                  }
+                  .d-icon {
+                    margin-top: -1px;
+                    margin-left: 0.25em;
+                  }
+                  &:empty {
+                    display: none;
+                  }
+                }
+                .likes-tlist {
+                  margin-right: 0.667em;
+                }
+                .latest-poster-tlist {
+                  margin-left: auto;
+                  margin-right: 0.667em;
+                }
+                .latest-activity-tlist {
+                  margin-right: 0.667em;
+                }
+              }
+        /*End CSS Custom Business Discourse Theme Follow FKB Pro Theme */
         width: 100%;
         display: flex;
         margin-bottom: 0.5em;
@@ -510,18 +620,44 @@ blockquote p {
 tr.topic-list-item-separator {
     padding: 10px 0;
     box-shadow: none;
-    background-color: transparent !important;
+    background-color: transparent;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
     & .topic-list-data{
-        width: 100% !important;
-        & span {
-            background-color: var(--secondary) !important;
-            color: var(--danger-medium) !important;
-            border: 1px solid var(--danger-medium) !important;
-            border-radius: 10px;
+        span{
+            border-radius: 8px;
+            border: 1px solid var(--danger-medium);
         }
     }
 }
 
-.badge-category-bg{
+tr.topic-list-item-separator td.topic-list-data {
+    width: 100% !important;
+}
+
+.badge-category-bg, .badge-category-parent-bg{
     border-radius: 2px !important;
 }
+/*Fix CSS Admin */
+.boxed.admin-content{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: .5rem;
+    & .chart-canvas{
+      width: 100% !important;
+    }
+    & .admin-container{
+      & .themes-list-header{
+        margin-bottom: .5rem;
+        button{
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+      }
+      & .themes-list-container{
+        border-radius: 10px;
+        border-top: 1px solid var(--primary-low);
+      }
+    }
+  }
+/*End Fix CSS Admin */

@@ -20,7 +20,7 @@ html:not(.anon) {
 
 body.tab-bar-hidden {
   .d-tab-bar {
-    bottom: -49px;
+    bottom: -149px;
     transition: all .2s ease-in;
   }
 
@@ -61,7 +61,7 @@ body.tab-bar-hidden {
   }
 
   & .tab:nth-child(3) svg {
-    padding: 0.5em;
+    padding: .35em .65em;
     font-size: 1.5em;
     background: var(--businesslab-primary);
     color: #fff;
@@ -101,16 +101,6 @@ html body #main-outlet {
   padding: 30px 15px;
 }
 
-html .background-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  background: linear-gradient(225deg, rgba(233, 120, 34, 0.4962359943977591) 0%, rgba(233, 120, 34, 0.25253851540616246) 50%);
-  clip-path: ellipse(148% 70% at 91% -14%);
-}
-
 //CSS Header
 .d-header-icons .search-dropdown {
   display: none;
@@ -128,7 +118,7 @@ html .background-container {
 
 /*CSS Footer*/
 .custom-footer {
-  padding: 0 10px 35px;
+  padding: 0 10px 65px;
 }
 
 /*CSS Composer button bar suggestions*/
@@ -225,6 +215,7 @@ tr.topic-list-item-separator td.topic-list-data {
   box-shadow: unset !important
 }
 .list-controls{
+  margin-bottom: 1.5rem;
   padding: 20px 10px 10px;
   border-radius: 8px;
   background: var(--header_background);
@@ -277,7 +268,7 @@ tr.topic-list-item-separator td.topic-list-data {
   border-radius: 8px !important;
   flex-direction: column;
   &:not(:first-child){
-    margin: 16px 0px !important;
+    margin: 8px 0px !important;
   }
   &:last-child{
     margin-bottom: 0px !important;
@@ -394,6 +385,83 @@ tr.topic-list-item-separator td.topic-list-data {
     }
   }
 }
+
+tr.topic-list-item-separator {
+  padding: 10px 0;
+  box-shadow: none;
+  background-color: transparent;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  & .topic-list-data{
+      span{
+          border-radius: 8px;
+          border: 1px solid var(--danger-medium);
+      }
+  }
+}
+
+tr.topic-list-item-separator td.topic-list-data {
+  width: 100% !important;
+}
+/*CSS Custom Business Discourse Theme Follow FKB Pro Theme */
+.topic-image-middle-line.has-image-middle .topic-image {
+  width: 100%;
+  aspect-ratio: 16/10;
+}
+
+.topic-list {
+  & .topic-list-body {
+    & .link-top-line {
+      & .byline {
+      }
+      & .link-middle-line {
+        padding: 0px 10px !important;
+        & .topic-excerpt {
+          width: 100% !important;
+        }
+      }
+      & .topic-image-middle-line {
+      }
+      & .topic-tag-bottom-line {
+        padding: 0px 10px !important;
+      }
+    }
+  }
+}
+.topic-list {
+  tr .byline .badge-wrapper.box {
+    margin: 0 0.5em -1em auto;
+  }
+}
+//CSS topic tag on mobile
+.topic-tag-bottom-line .discourse-tags {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: scroll;
+  display: block;
+  width: calc(100vw - 40px);
+  scrollbar-width: none !important;
+  & a {
+    display: inline-block;
+    padding-top: 5px;
+    line-height: 1.6em;
+  }
+  &::-webkit-scrollbar {
+    display: none !important;
+  }
+}
+.topic-excerpt{
+  margin-bottom: .5rem;
+}
+/*End CSS Custom Business Discourse Theme Follow FKB Pro Theme */
+.topic-list-body {
+  & .badge-category-bg, .badge-category-parent-bg{
+    border-radius: 0 0 10px 10px !important;
+  }
+  & .badge-category.clear-badge{
+    padding: 0px .5rem;
+  }
+}
 // CSS Topic
 .regular{
   & .topic-above-post-stream-outlet{
@@ -435,4 +503,64 @@ tr.topic-list-item-separator td.topic-list-data {
     box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
   } 
 }
+/*CSS Category title header*/
+.category-header-widget{
+  & .category-title-header{
+    //Source: https://stackoverflow.com/questions/11552380/how-to-automatically-crop-and-center-an-image
+    background: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    & .category-title-contents {
+      padding: .75rem 0px 1rem 0px !important;
+      & .category-logo.aspect-image{
+        margin: 0 .5em .25em 0;
+        max-width: 40px;
+        float: left;
+        & img{
+            object-fit: cover; /* Do not scale the image https://developer.mozilla.org/en-US/docs/Web/CSS/object-position*/
+            object-position: center; /* Center the image within the element https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
+            height: 40px;
+            width: 40px;
+            border-radius: 10px;
+        }
+      }
+      & .category-title-name{
+        text-align: Left;
+      }
+      & .category-title-description{
+        text-align: left;
+      }
+    }
+  }
+}
+/*End CSS Category title header*/
 /*End CSS Topic list like social*/
+/*Fix CSS Admin */
+.mobile-view .full-width .admin-main-nav{
+  width: 100%;
+  margin-left: 0px;
+  padding-left: 0px;
+  border-radius: 10px 10px 0px 0px !important;
+  & .nav.nav-pills{
+    background: white;
+    padding-top: 10px;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+/*End Fix CSS Admin */
+/*CSS Calendar*/
+#category-events-calendar.fc{
+  background: white;
+  padding: .5rem 10px .5rem 10px;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+}
+.discourse-post-event-upcoming-events{
+  background: white;
+  padding: .5rem 10px .5rem 10px;
+  border-radius: 10px;
+}
+/*End CSS Calendar*/
