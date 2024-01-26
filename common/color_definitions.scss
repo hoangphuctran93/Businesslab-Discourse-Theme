@@ -6,15 +6,3 @@ Example:
 Perfixing the property name is highly recommended to avoid conflicts with plugin and/or core.
 */
 /*CSS color style for businesslab*/
-:root {
-    --businesslab-primary: #E97822;
-    --businesslab-secondary: #183028;
-    --businesslab-bg: #fef9f4;
-    --businesslab-orangeLighter: #636566;
-    --businesslab-highlight: #E87722;
-    --businesslab-borderLighter: #dbdfe1;
-    --businesslab-boxshadow: 0 2px 4px -1px rgb(0 0 0 / 25%);
-    --businesslab-borderline: #E4E6EB;
-//How do I prevent the force dark-mode
-    color-scheme: only light;
-}
