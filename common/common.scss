@@ -11,6 +11,9 @@
     color-scheme: only light;
 }
 
+@import "common/businesslab-c-admin";
+
+
 //CSS root theme
 b,
 strong {
@@ -638,26 +641,3 @@ tr.topic-list-item-separator td.topic-list-data {
 .badge-category-bg, .badge-category-parent-bg{
     border-radius: 2px !important;
 }
-/*Fix CSS Admin */
-.boxed.admin-content{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: .5rem;
-    & .chart-canvas{
-      width: 100% !important;
-    }
-    & .admin-container{
-      & .themes-list-header{
-        margin-bottom: .5rem;
-        button{
-          margin-left: 5px;
-          margin-right: 5px;
-        }
-      }
-      & .themes-list-container{
-        border-radius: 10px;
-        border-top: 1px solid var(--primary-low);
-      }
-    }
-  }
-/*End Fix CSS Admin */
