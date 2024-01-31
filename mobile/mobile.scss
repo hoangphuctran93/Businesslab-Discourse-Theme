@@ -43,6 +43,7 @@ body.tab-bar-hidden {
 }
 
 .d-tab-bar {
+  background: rgb(255 255 255 / 80%);
   transition: all .1s ease-out;
 
   & .tab.active {
