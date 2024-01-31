@@ -43,9 +43,8 @@ body.tab-bar-hidden {
 }
 
 .d-tab-bar {
-  background: rgb(255 255 255 / 80%);
+  background: rgb(255 255 255 / 90%);
   transition: all .1s ease-out;
-
   & .tab.active {
     color: var(--businesslab-primary);
     position: relative;
